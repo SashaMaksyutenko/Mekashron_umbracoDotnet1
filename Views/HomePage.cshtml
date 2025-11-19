@@ -1,9 +1,10 @@
 ﻿@using Umbraco.Cms.Web.Common.PublishedModels;
 @inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.HomePage>
 @using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@using Umbraco.Cms.Core.Models.PublishedContent;
 
 @{
-    Layout = null;
+    Layout = "master.cshtml";
 
     var title = Model.Value<string>("heroTitle");
     var subtitle = Model.Value<string>("heroSubtitle");
@@ -103,8 +104,8 @@
                                 <div class="buttons">
                                     @if (t == "Mekashron CRM")
                                     {
-                                        <a href="@primary?.Url ?? " #"" class="button button--accent">Download</a>
-                                        <a href="@secondary?.Url ?? " #"" class="link">Learn more</a>
+                                        <a href="/download-businessv7/" class="button button--accent">Download</a>
+                                        <a href="@(secondary?.Url ?? "#")" class="button button--dark">Learn more</a>
                                     }
                                     else
                                     {
@@ -157,7 +158,6 @@
             var ctaButtonLink = content.Value<Umbraco.Cms.Core.Models.Link>("ctaButtonLink");
             var ctaBg = content.Value<Umbraco.Cms.Core.Models.MediaWithCrops>("ctaBackground")?.Url() ??
             "/images/platform.png";
-
             <section class="platform" data-desktop-bg="@ctaBg">
                 <div class="container">
                     <h2 style="text-align: center;">@ctaTitle</h2>
@@ -166,9 +166,6 @@
                 </div>
             </section>
         }
-
     </div>
-    <script src="/js/scripts.js"></script>
 </body>
-
 </html>
