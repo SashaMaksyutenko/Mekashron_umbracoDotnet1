@@ -3,54 +3,63 @@
 @using ContentModels = Umbraco.Cms.Web.Common.PublishedModels
 
 @{
-    Layout = "master.cshtml";
+    Layout = "masterLayout.cshtml";
 
-    var title = Model.Value<string>("pageTitle");
-    var intro = Model.Value<string>("introText");
+    var title = Model.Value<string>("pageTitle") ?? "Скачать BusinessV7";
+    var intro = Model.Value<string>("introText") ?? "";
+    var emailPrivacyNotice = Model.Value<string>("emailPrivacyNotice") ?? "";
 
-    var nameLabel = Model.Value<string>("nameLabel");
-    var namePh = Model.Value<string>("namePlaceholder");
+    var nameLabel = Model.Value<string>("nameLabel") ?? "Имя";
+    var namePh = Model.Value<string>("namePlaceholder") ?? "";
 
-    var companyLabel = Model.Value<string>("companyLabel");
-    var companyPh = Model.Value<string>("companyPlaceholder");
+    var companyLabel = Model.Value<string>("companyLabel") ?? "Компания";
+    var companyPh = Model.Value<string>("companyPlaceholder") ?? "";
 
-    var phoneLabel = Model.Value<string>("phoneLabel");
-    var phonePh = Model.Value<string>("phonePlaceholder");
+    var phoneLabel = Model.Value<string>("phoneLabel") ?? "Телефон";
+    var phonePh = Model.Value<string>("phonePlaceholder") ?? "";
 
-    var emailLabel = Model.Value<string>("emailLabel");
-    var emailPh = Model.Value<string>("emailPlaceholder");
+    var emailLabel = Model.Value<string>("emailLabel") ?? "Email";
+    var emailPh = Model.Value<string>("emailPlaceholder") ?? "";
 
-    var submitButtonText = Model.Value<string>("submitButtonText") ?? "Submit";
+    var submitButtonText = Model.Value<string>("submitButtonText") ?? "Отправить";
 }
 
-<section class="breadcrumbs">
-    <div class="container">
-        <h1 style="text-align: center;">@title</h1>
-    </div>
-</section>
+<main class="main" id="primary">
+    <section class="breadcrumbs">
+        <div class="container">
+            <h1 style="text-align: center;">@title</h1>
+        </div>
+    </section>
 
-<section class="info">
-    <div class="container">
-        <p style="text-align: center;">@Html.Raw(intro)</p>
+    <section class="info">
+        <div class="container">
+            <p style="text-align: center; line-height: 1.6;">
+                @Html.Raw(intro)
+            </p>
 
-        <form method="post" action="/download-submit">
-            <div class="form-group">
-                <label for="name">@nameLabel</label>
-                <input type="text" id="name" name="name" placeholder="@namePh" />
-            </div>
-            <div class="form-group">
-                <label for="company">@companyLabel</label>
-                <input type="text" id="company" name="company" placeholder="@companyPh" />
-            </div>
-            <div class="form-group">
-                <label for="phone">@phoneLabel</label>
-                <input type="tel" id="phone" name="phone" placeholder="@phonePh" />
-            </div>
-            <div class="form-group">
-                <label for="email">@emailLabel</label>
-                <input type="email" id="email" name="email" placeholder="@emailPh" />
-            </div>
-            <button class="button button--accent" type="submit">@submitButtonText</button>
-        </form>
-    </div>
-</section>
+            <p style="text-align: center; color: #800000; margin-top: 1.5rem; margin-bottom: 2rem;">
+                @emailPrivacyNotice
+            </p>
+
+            <form method="post" action="/download-submit">
+                <div class="form-group">
+                    <label for="name">@nameLabel</label>
+                    <input type="text" id="name" name="name" placeholder="@namePh" />
+                </div>
+                <div class="form-group">
+                    <label for="company">@companyLabel</label>
+                    <input type="text" id="company" name="company" placeholder="@companyPh" />
+                </div>
+                <div class="form-group">
+                    <label for="phone">@phoneLabel</label>
+                    <input type="tel" id="phone" name="phone" placeholder="@phonePh" />
+                </div>
+                <div class="form-group">
+                    <label for="email">@emailLabel</label>
+                    <input type="email" id="email" name="email" placeholder="@emailPh" />
+                </div>
+                <button class="button button--accent" type="submit">@submitButtonText</button>
+            </form>
+        </div>
+    </section>
+</main>

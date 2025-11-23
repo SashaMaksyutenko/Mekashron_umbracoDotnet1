@@ -1,39 +1,47 @@
-﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+﻿@using Umbraco.Cms.Web.Common.PublishedModels
 @inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.HomePage>
-@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
-@using Umbraco.Cms.Core.Models.PublishedContent;
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels
+@using Umbraco.Cms.Core.Models
+@using Umbraco.Cms.Core.Models.Blocks
+@using Umbraco.Cms.Core.Models.PublishedContent
+@using System.Globalization
 
 @{
-    Layout = "master.cshtml";
+    Layout = "masterLayout.cshtml";
 
     var title = Model.Value<string>("heroTitle");
+    var experience = Model.Value<string>("heroExperience");
     var subtitle = Model.Value<string>("heroSubtitle");
-    var bg = Model.Value<Umbraco.Cms.Core.Models.MediaWithCrops>("heroDesktopBackground")?.Url() ?? "/images/hero.png";
+    var description = Model.Value<string>("heroDescription");
+    var bg = Model.Value<MediaWithCrops>("heroDesktopBackground")?.Url() ?? "/images/hero.png";
 
-    var btn1 = Model.Value<Umbraco.Cms.Core.Models.Link>("heroButton1Link");
-    var btn2 = Model.Value<Umbraco.Cms.Core.Models.Link>("heroButton2Link");
+    var btn1 = Model.Value<Link>("heroButton1Link");
+    var btn1Text = Model.Value<string>("heroButton1Text");
 
-    var expertiseItems = Model.Value<IEnumerable<Umbraco.Cms.Core.Models.Blocks.BlockListItem>>("expertiseItems") ??
-    Enumerable.Empty<Umbraco.Cms.Core.Models.Blocks.BlockListItem>();
-    var products = Model.Value<IEnumerable<Umbraco.Cms.Core.Models.Blocks.BlockListItem>>("products") ??
-    Enumerable.Empty<Umbraco.Cms.Core.Models.Blocks.BlockListItem>();
-    var industries = Model.Value<IEnumerable<Umbraco.Cms.Core.Models.Blocks.BlockListItem>>("industries") ??
-    Enumerable.Empty<Umbraco.Cms.Core.Models.Blocks.BlockListItem>();
+    var btn2 = Model.Value<Link>("heroButton2Link");
+    var btn2Text = Model.Value<string>("heroButton2Text");
+
+    var expertiseTitle = Model.Value<string>("expertiseTitle");
+    var productsTitle = Model.Value<string>("productsTitle");
+    var industriesTitle = Model.Value<string>("industriesTitle");
+
+    var expertiseItems = Model.Value<IEnumerable<BlockListItem>>("expertiseItems") ?? Enumerable.Empty<BlockListItem>();
+    var products = Model.Value<IEnumerable<BlockListItem>>("products") ?? Enumerable.Empty<BlockListItem>();
+    var industries = Model.Value<IEnumerable<BlockListItem>>("industries") ?? Enumerable.Empty<BlockListItem>();
 
     var aboutTitle = Model.Value<string>("aboutTitle");
     var aboutText = Model.Value<string>("aboutText");
-    var aboutBtn = Model.Value<Umbraco.Cms.Core.Models.Link>("aboutButtonLink");
+    var aboutBtn = Model.Value<Link>("aboutButtonLink");
 
-    var ctaBlocks = Model.Value<IEnumerable<Umbraco.Cms.Core.Models.Blocks.BlockListItem>>("ctaSection") ??
-    Enumerable.Empty<Umbraco.Cms.Core.Models.Blocks.BlockListItem>();
+    var ctaBlocks = Model.Value<IEnumerable<BlockListItem>>("ctaSection") ?? Enumerable.Empty<BlockListItem>();
 }
 <!DOCTYPE html>
-<html lang="en">
+<html lang="@System.Globalization.CultureInfo.CurrentCulture.TwoLetterISOLanguageName">
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mekashron</title>
+    <title>@(Model.Value("pageTitle") ?? "Mekashron")</title>
     <link rel="stylesheet" href="/css/style.css" />
 </head>
 
@@ -43,11 +51,12 @@
         <!-- Hero -->
         <section class="hero" style="background-image: url('@bg');">
             <div class="container center">
-                <h1><b>@title</b><br>20 Years of Development Experience</h1>
+                <h1><b>@title</b><br />@experience</h1>
                 <p>@Html.Raw(subtitle)</p>
+                <p>@Html.Raw(description)</p>
                 <div class="buttons">
-                    <a href="@btn1?.Url ?? " #"" class="button">Explore Solutions</a>
-                    <a href="@btn2?.Url ?? " #"" class="button button--dark">Contact us</a>
+                    <a href="@btn1?.Url ?? " #"" class="button">@btn1Text</a>
+                    <a href="@btn2?.Url ?? " #"" class="button button--dark">@btn2Text</a>
                 </div>
             </div>
         </section>
@@ -55,15 +64,16 @@
         <!-- Expertise -->
         <section class="expertise">
             <div class="container">
-                <h2>Our Expertise</h2>
+                <h2>@expertiseTitle</h2>
                 <ul class="expertise__list">
                     @foreach (var item in expertiseItems)
                     {
                         var content = item.Content;
-                        var icon = content.Value<Umbraco.Cms.Core.Models.MediaWithCrops>("icon")?.Url();
+                        var icon = content.Value<MediaWithCrops>("icon")?.Url();
                         var t = content.Value<string>("title");
                         var description = content.Value<string>("description");
-                        var link = content.Value<Umbraco.Cms.Core.Models.Link>("linkUrl");
+                        var link = content.Value<Link>("linkUrl");
+                        var linkText = content.Value<string>("linkText");
 
                         <li>
                             <div class="row">
@@ -71,7 +81,7 @@
                                 <h3>@t</h3>
                             </div>
                             <p>@description</p>
-                            <a href="@link?.Url ?? " #"" class="link">Learn more</a>
+                            <a href="@link?.Url ?? " #"" class="link">@linkText</a>
                         </li>
                     }
                 </ul>
@@ -79,74 +89,141 @@
         </section>
 
         <!-- Products -->
+        @{
+            var productsTitle = Model.Value<string>("productsTitle") ?? "Наши продукты";
+
+            // Profichat
+            var profichatImage = Model.Value<MediaWithCrops>("profichatImage")?.Url() ?? "/images/fallback.png";
+            var profichatTitle = Model.Value<string>("profichatTitle");
+            var profichatDescription = Model.Value<string>("profichatDescription") ?? "";
+            var profichatButtonText = Model.Value<string>("profichatButtonText");
+            var profichatButtonLink = Model.Value<IEnumerable<Link>>("profichatButtonLink")?.FirstOrDefault()?.Url ?? "#";
+
+            // ZMenu
+            var zmenuImage = Model.Value<MediaWithCrops>("zmenuImage")?.Url() ?? "/images/fallback.png";
+            var zmenuTitle = Model.Value<string>("zmenuTitle") ?? "ZMenu.net";
+            var zmenuDescription = Model.Value<string>("zmenuDescription") ?? "";
+            var zmenuButtonText = Model.Value<string>("zmenuButtonText");
+            var zmenuButtonLink = Model.Value<IEnumerable<Link>>("zmenuButtonLink")?.FirstOrDefault()?.Url ?? "#";
+
+            // Mekashron
+            var mekashronImage = Model.Value<MediaWithCrops>("mekashronImage")?.Url() ?? "/images/fallback.png";
+            var mekashronTitle = Model.Value<string>("mekashronTitle") ?? "Mekashron CRM";
+            var mekashronDescription = Model.Value<string>("mekashronDescription") ?? "";
+            var mekashronPrimaryText = Model.Value<string>("mekashronPrimaryButtonText");
+            var mekashronPrimaryLink = Model.Value<IEnumerable<Link>>("mekashronPrimaryButtonLink")?.FirstOrDefault()?.Url
+            ?? "#";
+            var mekashronSecondaryText = Model.Value<string>("mekashronSecondaryButtonText");
+            var mekashronSecondaryLink =
+            Model.Value<IEnumerable<Link>>("mekashronSecondaryButtonLink")?.FirstOrDefault()?.Url ?? "#";
+        }
+
         <section class="products">
             <div class="container">
-                <h2>Our Products</h2>
+                <h2>@productsTitle</h2>
                 <ul class="products__list">
-                    @foreach (var item in products)
-                    {
-                        var content = item.Content;
-                        var image = content.Value<Umbraco.Cms.Core.Models.MediaWithCrops>("image")?.Url();
-                        var t = content.Value<string>("title");
-                        var description = content.Value<string>("description");
-                        var primary = content.Value<Umbraco.Cms.Core.Models.Link>("primaryButtonLink");
-                        var secondary = content.Value<Umbraco.Cms.Core.Models.Link>("secondaryButtonLink");
 
-                        <li>
-                            <img src="@image" alt="@t" />
-                            <div class="content">
-                                <h3>@t</h3>
-                                <p>
-                                    @(t == "ZMenu.net"
-                                                                    ? Html.Raw(description.Replace("and", "and<br style=\"display:none\">"))
-                                                                    : description)
-                                </p>
-                                <div class="buttons">
-                                    @if (t == "Mekashron CRM")
-                                    {
-                                        <a href="/download-businessv7/" class="button button--accent">Download</a>
-                                        <a href="@(secondary?.Url ?? "#")" class="button button--dark">Learn more</a>
-                                    }
-                                    else
-                                    {
-                                        <a href="@secondary?.Url ?? " #"" class="button button--dark">Learn more</a>
-                                    }
-                                </div>
+                    <li>
+                        <img src="@profichatImage" alt="@profichatTitle" />
+                        <div class="content">
+                            <h3>@profichatTitle</h3>
+                            <p>@Html.Raw(profichatDescription)</p>
+                            <div class="buttons">
+                                <a href="@profichatButtonLink" class="button button--dark">@profichatButtonText</a>
                             </div>
-                        </li>
-                    }
+                        </div>
+                    </li>
+
+                    <li>
+                        <img src="@zmenuImage" alt="@zmenuTitle" />
+                        <div class="content">
+                            <h3>@zmenuTitle</h3>
+                            <p>@Html.Raw(zmenuDescription)</p>
+                            <div class="buttons">
+                                <a href="@zmenuButtonLink" class="button button--dark">@zmenuButtonText</a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <img src="@mekashronImage" alt="@mekashronTitle" />
+                        <div class="content">
+                            <h3>@mekashronTitle</h3>
+                            <p>@Html.Raw(mekashronDescription)</p>
+                            <div class="buttons">
+                                <a href="@mekashronPrimaryLink" class="button button--accent">@mekashronPrimaryText</a>
+                                <a href="@mekashronSecondaryLink" class="link">@mekashronSecondaryText</a>
+                            </div>
+                        </div>
+                    </li>
+
                 </ul>
             </div>
         </section>
 
         <!-- Industries + About -->
-        <section class="about">
-            <div class="container">
-                <div class="row">
-                    <div class="column">
-                        <h2>Industries We Serve</h2>
-                        <ul class="about__list">
-                            @foreach (var item in industries)
-                            {
-                                var content = item.Content;
-                                var icon = content.Value<Umbraco.Cms.Core.Models.MediaWithCrops>("icon")?.Url();
-                                var t = content.Value<string>("title");
+        @{
+    // Industries
+    var industriesTitle = Model.Value<string>("industriesTitle") ?? "Отрасли, с которыми мы работаем";
 
-                                <li>
-                                    <img src="@icon" alt="@t" />
-                                    <h3>@t</h3>
-                                </li>
-                            }
-                        </ul>
-                    </div>
-                    <div class="column">
-                        <h2>@aboutTitle</h2>
-                        <p>@aboutText</p>
-                        <a href="@aboutBtn?.Url ?? " #"" class="button button--accent">About Us</a>
-                    </div>
-                </div>
+    var industryIcon1 = Model.Value<MediaWithCrops>("industryIcon1")?.Url() ?? "/images/fallback.png";
+    var industryTitle1 = Model.Value<string>("industryTitle1") ?? "ИИ и SaaS";
+    var industryDesc1 = Model.Value<string>("industryDescription1") ?? "";
+
+    var industryIcon2 = Model.Value<MediaWithCrops>("industryIcon2")?.Url() ?? "/images/fallback.png";
+    var industryTitle2 = Model.Value<string>("industryTitle2") ?? "Ритейл и гостиничный бизнес";
+    var industryDesc2 = Model.Value<string>("industryDescription2") ?? "";
+
+    var industryIcon3 = Model.Value<MediaWithCrops>("industryIcon3")?.Url() ?? "/images/fallback.png";
+    var industryTitle3 = Model.Value<string>("industryTitle3") ?? "iGaming";
+    var industryDesc3 = Model.Value<string>("industryDescription3") ?? "";
+
+    var industryIcon4 = Model.Value<MediaWithCrops>("industryIcon4")?.Url() ?? "/images/fallback.png";
+    var industryTitle4 = Model.Value<string>("industryTitle4") ?? "Корпорации";
+    var industryDesc4 = Model.Value<string>("industryDescription4") ?? "";
+
+    // About
+    var aboutTitle = Model.Value<string>("aboutTitle") ?? "О компании Mekashron";
+    var aboutText = Model.Value<string>("aboutText") ?? "";
+    var aboutButtonText = Model.Value<string>("aboutButtonText") ?? "Подробнее о нас";
+    var aboutButtonLink = Model.Value<IEnumerable<Link>>("aboutButtonLink")?.FirstOrDefault()?.Url ?? "#";
+}
+<section class="about">
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <h2>@industriesTitle</h2>
+                <ul class="about__list">
+                    <li>
+                        <img src="@industryIcon1" alt="@industryTitle1" />
+                        <h3>@industryTitle1</h3>
+                        <p>@industryDesc1</p>
+                    </li>
+                    <li>
+                        <img src="@industryIcon2" alt="@industryTitle2" />
+                        <h3>@industryTitle2</h3>
+                        <p>@industryDesc2</p>
+                    </li>
+                    <li>
+                        <img src="@industryIcon3" alt="@industryTitle3" />
+                        <h3>@industryTitle3</h3>
+                        <p>@industryDesc3</p>
+                    </li>
+                    <li>
+                        <img src="@industryIcon4" alt="@industryTitle4" />
+                        <h3>@industryTitle4</h3>
+                        <p>@industryDesc4</p>
+                    </li>
+                </ul>
             </div>
-        </section>
+            <div class="column">
+                <h2>@aboutTitle</h2>
+                <p>@aboutText</p>
+                <a href="@aboutButtonLink" class="button button--accent">@aboutButtonText</a>
+            </div>
+        </div>
+    </div>
+</section>
 
         <!-- CTA Section -->
         @foreach (var block in ctaBlocks)
@@ -155,9 +232,9 @@
             var ctaTitle = content.Value<string>("ctaTitle");
             var ctaText = content.Value<string>("ctaText");
             var ctaButtonText = content.Value<string>("ctaButtonText");
-            var ctaButtonLink = content.Value<Umbraco.Cms.Core.Models.Link>("ctaButtonLink");
-            var ctaBg = content.Value<Umbraco.Cms.Core.Models.MediaWithCrops>("ctaBackground")?.Url() ??
-            "/images/platform.png";
+            var ctaButtonLink = content.Value<Link>("ctaButtonLink");
+            var ctaBg = content.Value<MediaWithCrops>("ctaBackground")?.Url() ?? "/images/platform.png";
+
             <section class="platform" data-desktop-bg="@ctaBg">
                 <div class="container">
                     <h2 style="text-align: center;">@ctaTitle</h2>
@@ -168,4 +245,5 @@
         }
     </div>
 </body>
+
 </html>

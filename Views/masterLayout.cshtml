@@ -1,0 +1,54 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+@using Umbraco.Cms.Core.Models.PublishedContent
+
+@{
+    Layout = null;
+
+    // Тягнемо вузол Global Settings по ID
+    var globalSettings = Umbraco.Content(Guid.Parse("01c9ccc2-ee31-4f20-9fbe-b458deca20b7"));
+}
+
+<!DOCTYPE html>
+<html lang="@System.Globalization.CultureInfo.CurrentCulture.TwoLetterISOLanguageName">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@Model.Value("pageTitle", fallback: Fallback.ToAncestors)</title>
+
+    <!-- Стили -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
+    <link rel="icon" type="image/png" href="/images/favicon.png" />
+
+    <!-- Шрифти -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <div class="site" id="page">
+
+        @if (globalSettings != null)
+        {
+            @await Html.PartialAsync("Partials/_Header", globalSettings)
+        }
+
+        <main class="main" id="primary">
+            @RenderBody()
+        </main>
+
+        @if (globalSettings != null)
+        {
+            @await Html.PartialAsync("Partials/_Footer", globalSettings)
+        }
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="/js/jquery-3.7.1.min.js"></script>
+    <script src="/js/swiper-bundle.min.js"></script>
+    <script src="/js/select.js"></script>
+    <script src="/js/scripts.js"></script>
+</body>
+</html>

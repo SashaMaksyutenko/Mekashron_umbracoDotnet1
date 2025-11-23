@@ -1,0 +1,61 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<IPublishedContent>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="column">
+                <a href="/" class="logo">@Model.Value("footerTitle")</a>
+                <p>@Html.Raw(Model.Value("footerTagline"))</p>
+            </div>
+            <div class="column">
+                <div class="footer__actions">
+                    <nav class="footer__nav">
+                        <ul class="footer__nav--list">
+                            <li><a href="#">@Model.Value("footerNavProducts")</a></li>
+                            <li><a href="#">@Model.Value("footerNavSolutions")</a></li>
+                            <li><a href="#">@Model.Value("footerNavAbout")</a></li>
+                            <li><a href="#">@Model.Value("footerNavIndustries")</a></li>
+                            <li><a href="#">@Model.Value("footerNavContact")</a></li>
+                        </ul>
+                    </nav>
+                    <div class="column">
+                        <nav class="footer__links">
+                            <ul class="footer__links--list">
+                                <li>
+                                    <a href="https://wa.me/#" target="_blank">
+                                        <img src="/images/icons/whatsapp-icon.svg" alt="whatsapp" />
+                                        @Model.Value("footerWhatsapp")
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:@Model.Value("footerEmailText")">
+                                        <img src="/images/icons/mail.svg" alt="mail" />
+                                        @Model.Value("footerEmailText")
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <button class="language" id="language_btn">
+                            <ul id="language-menu" class="language__list">
+                                <li>
+                                    <a href="#">
+                                        <img src="/images/icons/country/USA.svg" alt="USA" width="16" height="11" />
+                                        <span>English</span>
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#"><span>English</span></a></li>
+                                        <li><a href="#"><span>Українська</span></a></li>
+                                        <li><a href="#"><span>Русский</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy">
+            <p>© @DateTime.Now.Year Mekashron. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
