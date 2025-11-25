@@ -4,7 +4,7 @@
     <div class="container">
         <div class="footer__inner">
             <div class="column">
-                <a href="/" class="logo">@Model.Value("footerTitle")</a>
+                <a href="/en" class="logo">@Model.Value("footerTitle")</a>
                 <p>@Html.Raw(Model.Value("footerTagline"))</p>
             </div>
             <div class="column">
@@ -43,9 +43,12 @@
                                         <span>English</span>
                                     </a>
                                     <ul class="sub-menu">
-                                        <li><a href="#"><span>English</span></a></li>
-                                        <li><a href="#"><span>Українська</span></a></li>
-                                        <li><a href="#"><span>Русский</span></a></li>
+                                        <li><a href="/en"><span><img src="/images/icons/country/USA.svg" alt="USA"
+                                                        width="16" height="11" /> English</span></a></li>
+                                        <li><a href="/uk"><span> <img src="/images/icons/country/Ukraine.svg"
+                                                        alt="Ukraine" width="16" height="11">Українська</span></a></li>
+                                        <li><a href="/ru"><span><img src="/images/icons/country/Russia.svg"
+                                                        alt="Russia" />Русский</span></a></li>
                                     </ul>
                                 </li>
                             </ul>

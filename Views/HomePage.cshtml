@@ -1,4 +1,7 @@
-﻿@using Umbraco.Cms.Web.Common.PublishedModels
+﻿@{
+    Layout = "masterLayout.cshtml";
+}
+@using Umbraco.Cms.Web.Common.PublishedModels
 @inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.HomePage>
 @using ContentModels = Umbraco.Cms.Web.Common.PublishedModels
 @using Umbraco.Cms.Core.Models
@@ -7,14 +10,11 @@
 @using System.Globalization
 
 @{
-    Layout = "masterLayout.cshtml";
-
     var title = Model.Value<string>("heroTitle");
     var experience = Model.Value<string>("heroExperience");
     var subtitle = Model.Value<string>("heroSubtitle");
     var description = Model.Value<string>("heroDescription");
-    var bg = Model.Value<MediaWithCrops>("heroDesktopBackground")?.Url() ?? "/images/hero.png";
-
+    var bg = Model.Value<MediaWithCrops>("heroDesktopBackground")?.Url()  ?? "/images/hero.png";    
     var btn1 = Model.Value<Link>("heroButton1Link");
     var btn1Text = Model.Value<string>("heroButton1Text");
 
@@ -94,28 +94,29 @@
 
             // Profichat
             var profichatImage = Model.Value<MediaWithCrops>("profichatImage")?.Url() ?? "/images/fallback.png";
-            var profichatTitle = Model.Value<string>("profichatTitle");
+            var profichatTitle = Model.Value<string>("profichatTitle") ?? "Profichat.net";
             var profichatDescription = Model.Value<string>("profichatDescription") ?? "";
-            var profichatButtonText = Model.Value<string>("profichatButtonText");
+            var profichatButtonText = Model.Value<string>("profichatButtonText") ?? "Подробнее";
             var profichatButtonLink = Model.Value<IEnumerable<Link>>("profichatButtonLink")?.FirstOrDefault()?.Url ?? "#";
 
             // ZMenu
             var zmenuImage = Model.Value<MediaWithCrops>("zmenuImage")?.Url() ?? "/images/fallback.png";
             var zmenuTitle = Model.Value<string>("zmenuTitle") ?? "ZMenu.net";
             var zmenuDescription = Model.Value<string>("zmenuDescription") ?? "";
-            var zmenuButtonText = Model.Value<string>("zmenuButtonText");
+            var zmenuButtonText = Model.Value<string>("zmenuButtonText") ?? "Подробнее";
             var zmenuButtonLink = Model.Value<IEnumerable<Link>>("zmenuButtonLink")?.FirstOrDefault()?.Url ?? "#";
 
             // Mekashron
             var mekashronImage = Model.Value<MediaWithCrops>("mekashronImage")?.Url() ?? "/images/fallback.png";
             var mekashronTitle = Model.Value<string>("mekashronTitle") ?? "Mekashron CRM";
             var mekashronDescription = Model.Value<string>("mekashronDescription") ?? "";
-            var mekashronPrimaryText = Model.Value<string>("mekashronPrimaryButtonText");
-            var mekashronPrimaryLink = Model.Value<IEnumerable<Link>>("mekashronPrimaryButtonLink")?.FirstOrDefault()?.Url
-            ?? "#";
-            var mekashronSecondaryText = Model.Value<string>("mekashronSecondaryButtonText");
+            var mekashronPrimaryText = Model.Value<string>("mekashronPrimaryButtonText") ?? "Скачать";
+            var mekashronSecondaryText = Model.Value<string>("mekashronSecondaryButtonText") ?? "Подробнее";
             var mekashronSecondaryLink =
             Model.Value<IEnumerable<Link>>("mekashronSecondaryButtonLink")?.FirstOrDefault()?.Url ?? "#";
+
+            var lang = CultureInfo.CurrentCulture.TwoLetterISOLanguageName;
+            var mekashronPrimaryLink = $"/download-businessv7/{lang}";
         }
 
         <section class="products">
@@ -163,67 +164,67 @@
 
         <!-- Industries + About -->
         @{
-    // Industries
-    var industriesTitle = Model.Value<string>("industriesTitle") ?? "Отрасли, с которыми мы работаем";
+            // Industries
+            var industriesTitle = Model.Value<string>("industriesTitle") ?? "Отрасли, с которыми мы работаем";
 
-    var industryIcon1 = Model.Value<MediaWithCrops>("industryIcon1")?.Url() ?? "/images/fallback.png";
-    var industryTitle1 = Model.Value<string>("industryTitle1") ?? "ИИ и SaaS";
-    var industryDesc1 = Model.Value<string>("industryDescription1") ?? "";
+            var industryIcon1 = Model.Value<MediaWithCrops>("industryIcon1")?.Url() ?? "/images/fallback.png";
+            var industryTitle1 = Model.Value<string>("industryTitle1") ?? "ИИ и SaaS";
+            var industryDesc1 = Model.Value<string>("industryDescription1") ?? "";
 
-    var industryIcon2 = Model.Value<MediaWithCrops>("industryIcon2")?.Url() ?? "/images/fallback.png";
-    var industryTitle2 = Model.Value<string>("industryTitle2") ?? "Ритейл и гостиничный бизнес";
-    var industryDesc2 = Model.Value<string>("industryDescription2") ?? "";
+            var industryIcon2 = Model.Value<MediaWithCrops>("industryIcon2")?.Url() ?? "/images/fallback.png";
+            var industryTitle2 = Model.Value<string>("industryTitle2") ?? "Ритейл и гостиничный бизнес";
+            var industryDesc2 = Model.Value<string>("industryDescription2") ?? "";
 
-    var industryIcon3 = Model.Value<MediaWithCrops>("industryIcon3")?.Url() ?? "/images/fallback.png";
-    var industryTitle3 = Model.Value<string>("industryTitle3") ?? "iGaming";
-    var industryDesc3 = Model.Value<string>("industryDescription3") ?? "";
+            var industryIcon3 = Model.Value<MediaWithCrops>("industryIcon3")?.Url() ?? "/images/fallback.png";
+            var industryTitle3 = Model.Value<string>("industryTitle3") ?? "iGaming";
+            var industryDesc3 = Model.Value<string>("industryDescription3") ?? "";
 
-    var industryIcon4 = Model.Value<MediaWithCrops>("industryIcon4")?.Url() ?? "/images/fallback.png";
-    var industryTitle4 = Model.Value<string>("industryTitle4") ?? "Корпорации";
-    var industryDesc4 = Model.Value<string>("industryDescription4") ?? "";
+            var industryIcon4 = Model.Value<MediaWithCrops>("industryIcon4")?.Url() ?? "/images/fallback.png";
+            var industryTitle4 = Model.Value<string>("industryTitle4") ?? "Корпорации";
+            var industryDesc4 = Model.Value<string>("industryDescription4") ?? "";
 
-    // About
-    var aboutTitle = Model.Value<string>("aboutTitle") ?? "О компании Mekashron";
-    var aboutText = Model.Value<string>("aboutText") ?? "";
-    var aboutButtonText = Model.Value<string>("aboutButtonText") ?? "Подробнее о нас";
-    var aboutButtonLink = Model.Value<IEnumerable<Link>>("aboutButtonLink")?.FirstOrDefault()?.Url ?? "#";
-}
-<section class="about">
-    <div class="container">
-        <div class="row">
-            <div class="column">
-                <h2>@industriesTitle</h2>
-                <ul class="about__list">
-                    <li>
-                        <img src="@industryIcon1" alt="@industryTitle1" />
-                        <h3>@industryTitle1</h3>
-                        <p>@industryDesc1</p>
-                    </li>
-                    <li>
-                        <img src="@industryIcon2" alt="@industryTitle2" />
-                        <h3>@industryTitle2</h3>
-                        <p>@industryDesc2</p>
-                    </li>
-                    <li>
-                        <img src="@industryIcon3" alt="@industryTitle3" />
-                        <h3>@industryTitle3</h3>
-                        <p>@industryDesc3</p>
-                    </li>
-                    <li>
-                        <img src="@industryIcon4" alt="@industryTitle4" />
-                        <h3>@industryTitle4</h3>
-                        <p>@industryDesc4</p>
-                    </li>
-                </ul>
+            // About
+            var aboutTitle = Model.Value<string>("aboutTitle") ?? "О компании Mekashron";
+            var aboutText = Model.Value<string>("aboutText") ?? "";
+            var aboutButtonText = Model.Value<string>("aboutButtonText") ?? "Подробнее о нас";
+            var aboutButtonLink = Model.Value<IEnumerable<Link>>("aboutButtonLink")?.FirstOrDefault()?.Url ?? "#";
+        }
+        <section class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="column">
+                        <h2>@industriesTitle</h2>
+                        <ul class="about__list">
+                            <li>
+                                <img src="@industryIcon1" alt="@industryTitle1" />
+                                <h3>@industryTitle1</h3>
+                                <p>@industryDesc1</p>
+                            </li>
+                            <li>
+                                <img src="@industryIcon2" alt="@industryTitle2" />
+                                <h3>@industryTitle2</h3>
+                                <p>@industryDesc2</p>
+                            </li>
+                            <li>
+                                <img src="@industryIcon3" alt="@industryTitle3" />
+                                <h3>@industryTitle3</h3>
+                                <p>@industryDesc3</p>
+                            </li>
+                            <li>
+                                <img src="@industryIcon4" alt="@industryTitle4" />
+                                <h3>@industryTitle4</h3>
+                                <p>@industryDesc4</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h2>@aboutTitle</h2>
+                        <p>@aboutText</p>
+                        <a href="@aboutButtonLink" class="button button--accent">@aboutButtonText</a>
+                    </div>
+                </div>
             </div>
-            <div class="column">
-                <h2>@aboutTitle</h2>
-                <p>@aboutText</p>
-                <a href="@aboutButtonLink" class="button button--accent">@aboutButtonText</a>
-            </div>
-        </div>
-    </div>
-</section>
+        </section>
 
         <!-- CTA Section -->
         @foreach (var block in ctaBlocks)
