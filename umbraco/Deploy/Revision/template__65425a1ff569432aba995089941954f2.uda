@@ -1,0 +1,21 @@
+{
+  "Name": "DownloadPage",
+  "Alias": "DownloadPage",
+  "File": "umb://template-file/DownloadPage.cshtml",
+  "Master": "umb://template/e8cdf4234c6642b89b371b82a25366c2",
+  "Udi": "umb://template/65425a1ff569432aba995089941954f2",
+  "Dependencies": [
+    {
+      "Udi": "umb://template-file/DownloadPage.cshtml",
+      "Ordering": true,
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://template/e8cdf4234c6642b89b371b82a25366c2",
+      "Ordering": true,
+      "Mode": "Exist"
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.TemplateArtifact",
+  "__version": "16.0.4"
+}

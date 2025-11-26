@@ -1,0 +1,89 @@
+{
+  "Name": "CTA Block",
+  "Alias": "ctaBlock",
+  "AllowedTemplates": [],
+  "HistoryCleanup": {},
+  "Icon": "icon-plugin",
+  "Thumbnail": "folder.png",
+  "Permissions": {
+    "AllowVaryingByCulture": true,
+    "IsElementType": true,
+    "AllowedChildContentTypes": []
+  },
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "4879ec70-61a9-43ae-a632-854233bbe1b8",
+      "Name": "CTA",
+      "Alias": "cTA",
+      "PropertyTypes": [
+        {
+          "Key": "08875b77-8c49-4578-b330-4c71b24f8fc5",
+          "Alias": "ctaBackground",
+          "DataType": "umb://data-type/4309a3ea0d784329a06cc80b036af19a",
+          "Name": "CTA Background",
+          "SortOrder": 4,
+          "VariesByCulture": true,
+          "LabelOnTop": true
+        },
+        {
+          "Key": "09012185-147a-490c-bebe-138de7c91c74",
+          "Alias": "ctaButtonText",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "CTA Button Text",
+          "SortOrder": 2,
+          "VariesByCulture": true,
+          "LabelOnTop": true
+        },
+        {
+          "Key": "241d841b-132b-44f8-9cf6-020664d17dc8",
+          "Alias": "ctaTitle",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "CTA Title",
+          "VariesByCulture": true,
+          "LabelOnTop": true
+        },
+        {
+          "Key": "5de7b420-6ef2-416d-8942-ae5bde521635",
+          "Alias": "ctaText",
+          "DataType": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+          "Name": "CTA Text",
+          "SortOrder": 1,
+          "VariesByCulture": true,
+          "LabelOnTop": true
+        },
+        {
+          "Key": "c57c5e94-d1fb-4d49-ac01-6b313f514dd1",
+          "Alias": "ctaButtonLink",
+          "DataType": "umb://data-type/b4e3535a175347e28568602cf8cfee6f",
+          "Name": "CTA Button Link",
+          "SortOrder": 3,
+          "VariesByCulture": true,
+          "LabelOnTop": true
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/e4028f051bb94c11a40321368684baa8",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/4309a3ea0d784329a06cc80b036af19a",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/b4e3535a175347e28568602cf8cfee6f",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+      "Ordering": true
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "16.0.4"
+}

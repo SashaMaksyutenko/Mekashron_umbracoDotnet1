@@ -1,0 +1,21 @@
+{
+  "Name": "Expertise Blocks",
+  "EditorAlias": "Umbraco.BlockList",
+  "EditorUiAlias": "Umb.PropertyEditorUi.BlockList",
+  "Configuration": {
+    "blocks": [
+      {
+        "contentElementTypeKey": "38eae4a7-7ac7-4fdc-a3e2-9a1797171c7d",
+        "label": "@title"
+      }
+    ]
+  },
+  "Udi": "umb://data-type/4bdbed6902ff4e7d830885b18905e42c",
+  "Dependencies": [
+    {
+      "Udi": "umb://document-type/38eae4a77ac74fdca3e29a1797171c7d"
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "16.0.4"
+}

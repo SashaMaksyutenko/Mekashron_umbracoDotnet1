@@ -1,0 +1,21 @@
+{
+  "Name": "CTA Section",
+  "EditorAlias": "Umbraco.BlockList",
+  "EditorUiAlias": "Umb.PropertyEditorUi.BlockList",
+  "Configuration": {
+    "blocks": [
+      {
+        "contentElementTypeKey": "e4028f05-1bb9-4c11-a403-21368684baa8",
+        "label": "@title"
+      }
+    ]
+  },
+  "Udi": "umb://data-type/7026420f8ebf407c849a3806c66947aa",
+  "Dependencies": [
+    {
+      "Udi": "umb://document-type/e4028f051bb94c11a40321368684baa8"
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "16.0.4"
+}

@@ -1,0 +1,152 @@
+{
+  "Name": "DownloadPage",
+  "Alias": "downloadPage",
+  "DefaultTemplate": "umb://template/65425a1ff569432aba995089941954f2",
+  "AllowedTemplates": [
+    "umb://template/65425a1ff569432aba995089941954f2"
+  ],
+  "HistoryCleanup": {},
+  "Icon": "icon-document-html",
+  "Thumbnail": "folder.png",
+  "Permissions": {
+    "AllowVaryingByCulture": true,
+    "AllowedAtRoot": true,
+    "AllowedChildContentTypes": []
+  },
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "8ab5a495-61b1-4458-91f0-111a2bd87fad",
+      "Name": "Content",
+      "Alias": "content",
+      "PropertyTypes": [
+        {
+          "Key": "02b4f198-d114-418b-871f-7a08ccd32551",
+          "Alias": "emailPlaceholder",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "Email Placeholder",
+          "SortOrder": 10,
+          "VariesByCulture": true,
+          "LabelOnTop": true
+        },
+        {
+          "Key": "1171c147-2519-4375-9a08-157d8fa88161",
+          "Alias": "emailLabel",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "Email Label",
+          "SortOrder": 9,
+          "VariesByCulture": true,
+          "LabelOnTop": true
+        },
+        {
+          "Key": "21023fa4-8769-4e48-abe4-36b3597c18f7",
+          "Alias": "submitButtonText",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "Submit Button Text",
+          "SortOrder": 11,
+          "VariesByCulture": true,
+          "LabelOnTop": true
+        },
+        {
+          "Key": "29daf5c5-a357-4196-afe9-964b7d107afb",
+          "Alias": "phoneLabel",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "Phone Label",
+          "SortOrder": 7,
+          "VariesByCulture": true,
+          "LabelOnTop": true
+        },
+        {
+          "Key": "400be7c5-786e-4f76-9127-f57e48b31fe2",
+          "Alias": "pageTitle",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "Page Title",
+          "VariesByCulture": true,
+          "LabelOnTop": true
+        },
+        {
+          "Key": "820c996c-25b1-4967-a9fe-938cfe106a66",
+          "Alias": "namePlaceholder",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "Name Placeholder",
+          "SortOrder": 4,
+          "VariesByCulture": true,
+          "LabelOnTop": true
+        },
+        {
+          "Key": "873d12f3-c30e-49e1-8f56-be093a1d849b",
+          "Alias": "emailPrivacyNotice",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "emailPrivacyNotice",
+          "SortOrder": 2,
+          "VariesByCulture": true,
+          "LabelOnTop": true
+        },
+        {
+          "Key": "88301f3f-3491-413d-b292-f861712fe370",
+          "Alias": "companyPlaceholder",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "Company Placeholder",
+          "SortOrder": 6,
+          "VariesByCulture": true,
+          "LabelOnTop": true
+        },
+        {
+          "Key": "92cbde7d-ffd4-4300-93ac-e33432394f0e",
+          "Alias": "companyLabel",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "Company Label",
+          "SortOrder": 5,
+          "VariesByCulture": true,
+          "LabelOnTop": true
+        },
+        {
+          "Key": "dbaad0e2-e351-4f8a-a58d-1b1b826250c6",
+          "Alias": "phonePlaceholder",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "Phone Placeholder",
+          "SortOrder": 8,
+          "VariesByCulture": true,
+          "LabelOnTop": true
+        },
+        {
+          "Key": "e10e87a2-bff5-4cb0-b90d-d2fd8427db2b",
+          "Alias": "introText",
+          "DataType": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
+          "Name": "Intro Text",
+          "SortOrder": 1,
+          "VariesByCulture": true,
+          "LabelOnTop": true
+        },
+        {
+          "Key": "f98d5834-2209-453a-92c9-09f2b8e071d2",
+          "Alias": "nameLabel",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "Name Label",
+          "SortOrder": 3,
+          "VariesByCulture": true,
+          "LabelOnTop": true
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/6258e0a4e9bd44e18f324e57e89c760a",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://template/65425a1ff569432aba995089941954f2",
+      "Ordering": true,
+      "Mode": "Exist"
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "16.0.4"
+}

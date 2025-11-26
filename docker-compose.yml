@@ -1,0 +1,28 @@
+
+services:
+  umbraco:
+    build: .
+    container_name: umbraco-app
+    ports:
+      - "8080:80"
+    environment:
+      - ASPNETCORE_URLS=http://+:80
+      - ConnectionStrings__umbracoDbDSN=Server=db,1433;Database=Mekashron1;User Id=sa;Password=Mynameissasha87@;TrustServerCertificate=true;
+    depends_on:
+      - db
+    volumes:
+      - ./wwwroot/media:/app/wwwroot/media
+
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: umbraco-db
+    ports:
+      - "1433:1433"
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Mynameissasha87@
+    volumes:
+      - sql_data:/var/opt/mssql
+
+volumes:
+  sql_data:

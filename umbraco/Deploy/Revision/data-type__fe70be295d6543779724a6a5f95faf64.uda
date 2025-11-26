@@ -1,0 +1,13 @@
+{
+  "Name": "HomePage - mekashronPrimaryButtonLink - Multi URL Picker Property Editor UI",
+  "EditorAlias": "Umbraco.MultiUrlPicker",
+  "EditorUiAlias": "Umb.PropertyEditorUi.MultiUrlPicker",
+  "Configuration": {
+    "minNumber": 0,
+    "maxNumber": 0
+  },
+  "Udi": "umb://data-type/fe70be295d6543779724a6a5f95faf64",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "16.0.4"
+}

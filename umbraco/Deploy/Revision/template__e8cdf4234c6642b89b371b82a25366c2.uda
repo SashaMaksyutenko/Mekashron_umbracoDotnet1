@@ -1,0 +1,15 @@
+{
+  "Name": "_MasterLayout",
+  "Alias": "masterLayout",
+  "File": "umb://template-file/masterLayout.cshtml",
+  "Udi": "umb://template/e8cdf4234c6642b89b371b82a25366c2",
+  "Dependencies": [
+    {
+      "Udi": "umb://template-file/masterLayout.cshtml",
+      "Ordering": true,
+      "Mode": "Exist"
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.TemplateArtifact",
+  "__version": "16.0.4"
+}

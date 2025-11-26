@@ -1,0 +1,13 @@
+{
+  "Name": "HomePage - zmenuButtonLink - Multi URL Picker Property Editor UI",
+  "EditorAlias": "Umbraco.MultiUrlPicker",
+  "EditorUiAlias": "Umb.PropertyEditorUi.MultiUrlPicker",
+  "Configuration": {
+    "minNumber": 0,
+    "maxNumber": 0
+  },
+  "Udi": "umb://data-type/246b36ecbd1b4bbea1645e570092b449",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "16.0.4"
+}

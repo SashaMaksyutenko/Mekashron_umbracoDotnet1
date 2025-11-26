@@ -1,0 +1,21 @@
+{
+  "Name": "HomePage",
+  "Alias": "HomePage",
+  "File": "umb://template-file/HomePage.cshtml",
+  "Master": "umb://template/e8cdf4234c6642b89b371b82a25366c2",
+  "Udi": "umb://template/eb22bdb067044fb2a05587de39a2039a",
+  "Dependencies": [
+    {
+      "Udi": "umb://template-file/HomePage.cshtml",
+      "Ordering": true,
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://template/e8cdf4234c6642b89b371b82a25366c2",
+      "Ordering": true,
+      "Mode": "Exist"
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.TemplateArtifact",
+  "__version": "16.0.4"
+}

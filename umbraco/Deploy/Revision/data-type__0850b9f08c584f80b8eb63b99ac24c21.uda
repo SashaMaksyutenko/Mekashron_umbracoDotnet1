@@ -1,0 +1,13 @@
+{
+  "Name": "HomePage -  - Multi URL Picker Property Editor UI",
+  "EditorAlias": "Umbraco.MultiUrlPicker",
+  "EditorUiAlias": "Umb.PropertyEditorUi.MultiUrlPicker",
+  "Configuration": {
+    "minNumber": 0,
+    "maxNumber": 0
+  },
+  "Udi": "umb://data-type/0850b9f08c584f80b8eb63b99ac24c21",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "16.0.4"
+}
