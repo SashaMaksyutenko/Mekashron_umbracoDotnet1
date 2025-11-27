@@ -1,0 +1,33 @@
+{
+  "Name": "hero.png",
+  "Alias": "hero.png",
+  "Properties": {
+    "umbracoFile": "/media/uztgnuil/hero.png",
+    "umbracoExtension": "png",
+    "umbracoBytes": "671520"
+  },
+  "SortOrder": 15,
+  "ContentType": "umb://media-type/4c52d8ab54e640cd999c7a5f24903e4d",
+  "CreateDate": "2025-11-23T20:10:28.213+02:00",
+  "Creator": "sasha.maksyutenko@gmail.com",
+  "PropertyEditorAliases": {
+    "umbracoFile": "Umbraco.UploadField",
+    "umbracoExtension": "Umbraco.Label",
+    "umbracoBytes": "Umbraco.Label"
+  },
+  "Udi": "umb://media/719d0e55a52c4158a2698f478b0f8809",
+  "Dependencies": [
+    {
+      "Udi": "umb://media-file/uztgnuil/hero.png",
+      "Ordering": true,
+      "Checksum": "0E7E73DFF7879738A4A922F82947482506D45041"
+    },
+    {
+      "Udi": "umb://media-type/4c52d8ab54e640cd999c7a5f24903e4d",
+      "Ordering": true,
+      "Checksum": "62172A467F4D0A7587211D7ED047422EB5A72E85"
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.Content.MediaArtifact",
+  "__version": "16.0.4"
+}

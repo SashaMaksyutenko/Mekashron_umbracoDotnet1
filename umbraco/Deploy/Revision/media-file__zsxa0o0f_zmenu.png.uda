@@ -1,0 +1,8 @@
+{
+  "Name": "umb://media-file/zsxa0o0f/zmenu.png",
+  "ChecksumValue": "F88E9B4A10400FFA3FEDBBA8B0E4028BC95A5620",
+  "Udi": "umb://media-file/zsxa0o0f/zmenu.png",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.FileArtifact",
+  "__version": "16.0.4"
+}

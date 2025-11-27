@@ -1,0 +1,33 @@
+{
+  "Name": "mekashron.png (2)",
+  "Alias": "mekashron.png (2)",
+  "Properties": {
+    "umbracoFile": "/media/egcnag3r/mekashron.png",
+    "umbracoExtension": "png",
+    "umbracoBytes": "51529"
+  },
+  "SortOrder": 18,
+  "ContentType": "umb://media-type/4c52d8ab54e640cd999c7a5f24903e4d",
+  "CreateDate": "2025-11-23T20:23:33.723+02:00",
+  "Creator": "sasha.maksyutenko@gmail.com",
+  "PropertyEditorAliases": {
+    "umbracoFile": "Umbraco.UploadField",
+    "umbracoExtension": "Umbraco.Label",
+    "umbracoBytes": "Umbraco.Label"
+  },
+  "Udi": "umb://media/bb3bedd29a964b9a90489d8a5bf1cc82",
+  "Dependencies": [
+    {
+      "Udi": "umb://media-file/egcnag3r/mekashron.png",
+      "Ordering": true,
+      "Checksum": "68AB01D42701B99EA96539798E63DAC0236A6582"
+    },
+    {
+      "Udi": "umb://media-type/4c52d8ab54e640cd999c7a5f24903e4d",
+      "Ordering": true,
+      "Checksum": "62172A467F4D0A7587211D7ED047422EB5A72E85"
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.Content.MediaArtifact",
+  "__version": "16.0.4"
+}

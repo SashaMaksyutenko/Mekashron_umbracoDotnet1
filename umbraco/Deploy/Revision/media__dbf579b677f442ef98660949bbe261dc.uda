@@ -1,0 +1,33 @@
+{
+  "Name": "platform.png (2)",
+  "Alias": "platform.png (2)",
+  "Properties": {
+    "umbracoFile": "/media/iuib244t/platform.png",
+    "umbracoExtension": "png",
+    "umbracoBytes": "519900"
+  },
+  "SortOrder": 19,
+  "ContentType": "umb://media-type/4c52d8ab54e640cd999c7a5f24903e4d",
+  "CreateDate": "2025-11-23T20:30:20.273+02:00",
+  "Creator": "sasha.maksyutenko@gmail.com",
+  "PropertyEditorAliases": {
+    "umbracoFile": "Umbraco.UploadField",
+    "umbracoExtension": "Umbraco.Label",
+    "umbracoBytes": "Umbraco.Label"
+  },
+  "Udi": "umb://media/dbf579b677f442ef98660949bbe261dc",
+  "Dependencies": [
+    {
+      "Udi": "umb://media-file/iuib244t/platform.png",
+      "Ordering": true,
+      "Checksum": "0ABA43487046077224364785BED0311240BD07FB"
+    },
+    {
+      "Udi": "umb://media-type/4c52d8ab54e640cd999c7a5f24903e4d",
+      "Ordering": true,
+      "Checksum": "62172A467F4D0A7587211D7ED047422EB5A72E85"
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.Content.MediaArtifact",
+  "__version": "16.0.4"
+}

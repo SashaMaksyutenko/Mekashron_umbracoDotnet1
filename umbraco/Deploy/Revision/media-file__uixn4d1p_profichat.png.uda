@@ -1,0 +1,8 @@
+{
+  "Name": "umb://media-file/uixn4d1p/profichat.png",
+  "ChecksumValue": "9AC46E8E6F2917FCCC652D3B8196A85E1F44FFDC",
+  "Udi": "umb://media-file/uixn4d1p/profichat.png",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.FileArtifact",
+  "__version": "16.0.4"
+}

@@ -1,0 +1,8 @@
+{
+  "Name": "umb://template-file/masterLayout.cshtml",
+  "ChecksumValue": "489B8828114B3ED805DDA4AE0AACD535CA3A71F9",
+  "Udi": "umb://template-file/masterLayout.cshtml",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.FileArtifact",
+  "__version": "16.0.4"
+}

@@ -1,0 +1,159 @@
+{
+  "Name": "settings",
+  "Alias": "settings",
+  "PublishedName": "settings",
+  "PublishedVersion": {
+    "Template": "umb://template/e8cdf4234c6642b89b371b82a25366c2",
+    "Properties": {
+      "headerTitle": {
+        "ru": "Mekashron",
+        "en-US": "Mekashron"
+      },
+      "navSolutions": {
+        "ru": "\u0420\u0435\u0448\u0435\u043D\u0438\u044F",
+        "en-US": "Solutions"
+      },
+      "navProducts": {
+        "ru": "\u041F\u0440\u043E\u0434\u0443\u043A\u0442\u044B",
+        "en-US": "Products"
+      },
+      "navIndustries": {
+        "ru": "\u041E\u0442\u0440\u0430\u0441\u043B\u0438",
+        "en-US": "Industries"
+      },
+      "navAbout": {
+        "ru": "\u041E \u043A\u043E\u043C\u043F\u0430\u043D\u0438\u0438",
+        "en-US": "About"
+      },
+      "navContacts": {
+        "ru": "\u041A\u043E\u043D\u0442\u0430\u043A\u0442\u044B",
+        "en-US": "Contacts"
+      },
+      "navGetInTouch": {
+        "ru": "\u0421\u0432\u044F\u0437\u0430\u0442\u044C\u0441\u044F \u0441 \u043D\u0430\u043C\u0438",
+        "en-US": "Get in Touch"
+      },
+      "footerTitle": {
+        "ru": "Mekashron",
+        "en-US": "Mekashron"
+      },
+      "footerTagline": {
+        "ru": "\u041F\u043E\u0432\u044B\u0448\u0430\u0439\u0442\u0435 \u044D\u0444\u0444\u0435\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u044C, \u0441\u043D\u0438\u0436\u0430\u0439\u0442\u0435 \u0437\u0430\u0442\u0440\u0430\u0442\u044B \u0438 \u0443\u0441\u043A\u043E\u0440\u044F\u0439\u0442\u0435 \u0440\u043E\u0441\u0442\n\u041D\u0430\u0434\u0451\u0436\u043D\u044B\u0439 \u043F\u0430\u0440\u0442\u043D\u0451\u0440 \u0441 20-\u043B\u0435\u0442\u043D\u0438\u043C \u043E\u043F\u044B\u0442\u043E\u043C \u0432 \u043E\u0431\u043B\u0430\u0441\u0442\u0438 \u0418\u0418 \u2014 \u043C\u043E\u0436\u043D\u043E \u0434\u043E\u0432\u0435\u0440\u044F\u0442\u044C",
+        "en-US": "Boost Efficiency, Cut Costs, and Accelerate Growth\nPowered by AI partner with 20 years of experience,\nyou can Trust"
+      },
+      "footerNavProducts": {
+        "ru": "\u041F\u0440\u043E\u0434\u0443\u043A\u0442\u044B",
+        "en-US": "Products"
+      },
+      "footerNavSolutions": {
+        "ru": "\u0420\u0435\u0448\u0435\u043D\u0438\u044F",
+        "en-US": "Solutions"
+      },
+      "footerNavAbout": {
+        "ru": "\u041E \u043A\u043E\u043C\u043F\u0430\u043D\u0438\u0438",
+        "en-US": "About"
+      },
+      "footerNavIndustries": {
+        "ru": "\u041E\u0442\u0440\u0430\u0441\u043B\u0438",
+        "en-US": "Indusries"
+      },
+      "footerNavContact": {
+        "ru": "\u041A\u043E\u043D\u0442\u0430\u043A\u0442\u044B",
+        "en-US": "Contact"
+      },
+      "footerWhatsapp": {
+        "ru": "\u0421\u0432\u044F\u0437\u0430\u0442\u044C\u0441\u044F \u0447\u0435\u0440\u0435\u0437 WhatsApp",
+        "en-US": "whatsappContact us by WhatsApp"
+      },
+      "footerEmailText": {
+        "ru": "info@mekashron.com",
+        "en-US": " mailinfo@mekashron.com"
+      }
+    },
+    "UpdateDate": "2025-11-24T14:56:10.78+02:00"
+  },
+  "CultureInfos": [
+    {
+      "Culture": "en-US",
+      "Value": "settings",
+      "Date": "2025-11-23T15:09:49.99+02:00"
+    },
+    {
+      "Culture": "ru",
+      "Value": "settings",
+      "Date": "2025-11-24T14:56:10.78+02:00"
+    }
+  ],
+  "PublishedCultureInfos": [
+    {
+      "Culture": "en-US",
+      "Value": "settings",
+      "Date": "2025-11-23T15:09:49.99+02:00"
+    },
+    {
+      "Culture": "ru",
+      "Value": "settings",
+      "Date": "2025-11-24T14:56:10.78+02:00"
+    }
+  ],
+  "PublishedCultures": [
+    "en-US",
+    "ru"
+  ],
+  "Writer": "sasha.maksyutenko@gmail.com",
+  "PublicAccessRules": [],
+  "Schedule": [],
+  "Domains": [
+    {
+      "LanguageIsoCode": "en-US",
+      "DomainName": "*1106"
+    }
+  ],
+  "SortOrder": 1,
+  "ContentType": "umb://document-type/87f3cbe96e344db5be94433464e46923",
+  "CreateDate": "2025-11-21T17:04:33.61+02:00",
+  "Creator": "sasha.maksyutenko@gmail.com",
+  "PropertyEditorAliases": {
+    "headerTitle": "Umbraco.TextBox",
+    "navSolutions": "Umbraco.TextBox",
+    "navProducts": "Umbraco.TextBox",
+    "navIndustries": "Umbraco.TextBox",
+    "navAbout": "Umbraco.TextBox",
+    "navContacts": "Umbraco.TextBox",
+    "navGetInTouch": "Umbraco.TextBox",
+    "footerTitle": "Umbraco.TextBox",
+    "footerTagline": "Umbraco.TextArea",
+    "footerNavProducts": "Umbraco.TextBox",
+    "footerNavSolutions": "Umbraco.TextBox",
+    "footerNavAbout": "Umbraco.TextBox",
+    "footerNavIndustries": "Umbraco.TextBox",
+    "footerNavContact": "Umbraco.TextBox",
+    "footerWhatsapp": "Umbraco.TextBox",
+    "footerEmailText": "Umbraco.TextBox"
+  },
+  "Udi": "umb://document/01c9ccc2ee314f209fbeb458deca20b7",
+  "Dependencies": [
+    {
+      "Udi": "umb://document-type/87f3cbe96e344db5be94433464e46923",
+      "Ordering": true,
+      "Checksum": "45B0E2335CA2816E72E552798551DB57ADE51779"
+    },
+    {
+      "Udi": "umb://language/en-US",
+      "Ordering": true,
+      "Checksum": "AD30232C89A8107A860F116387B2353925E11505"
+    },
+    {
+      "Udi": "umb://language/ru",
+      "Ordering": true,
+      "Checksum": "87726DBFAA34C9D57A5DA05144C26FA710B47E5F"
+    },
+    {
+      "Udi": "umb://template/e8cdf4234c6642b89b371b82a25366c2",
+      "Ordering": true,
+      "Mode": "Exist"
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.Content.DocumentArtifact",
+  "__version": "16.0.4"
+}

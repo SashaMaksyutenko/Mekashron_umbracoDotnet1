@@ -1,0 +1,33 @@
+{
+  "Name": "cart.svg",
+  "Alias": "cart.svg",
+  "Properties": {
+    "umbracoFile": "/media/nkjb0yb0/cart.svg",
+    "umbracoExtension": "svg",
+    "umbracoBytes": "1664"
+  },
+  "SortOrder": 11,
+  "ContentType": "umb://media-type/c4b1efcfa9d541c49621e9d273b52a9c",
+  "CreateDate": "2025-11-15T19:08:34.413+02:00",
+  "Creator": "sasha.maksyutenko@gmail.com",
+  "PropertyEditorAliases": {
+    "umbracoFile": "Umbraco.UploadField",
+    "umbracoExtension": "Umbraco.Label",
+    "umbracoBytes": "Umbraco.Label"
+  },
+  "Udi": "umb://media/82bf2f984821402fb91cfbd6b0bc5d99",
+  "Dependencies": [
+    {
+      "Udi": "umb://media-file/nkjb0yb0/cart.svg",
+      "Ordering": true,
+      "Checksum": "D004A3A21F83A37F35E46A61A264A8F41CEE4A61"
+    },
+    {
+      "Udi": "umb://media-type/c4b1efcfa9d541c49621e9d273b52a9c",
+      "Ordering": true,
+      "Checksum": "BA8A63776DCBFC6A86A2A9285F706A9255303D02"
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.Content.MediaArtifact",
+  "__version": "16.0.4"
+}

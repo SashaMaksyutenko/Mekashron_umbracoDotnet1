@@ -1,0 +1,148 @@
+{
+  "Name": "Download BusinessV7",
+  "Alias": "Download BusinessV7",
+  "PublishedName": "Download BusinessV7",
+  "PublishedVersion": {
+    "Template": "umb://template/65425a1ff569432aba995089941954f2",
+    "Properties": {
+      "pageTitle": {
+        "en-US": "Download BusinessV7",
+        "ru": "\u0421\u043A\u0430\u0447\u0430\u0442\u044C BusinessV7"
+      },
+      "introText": {
+        "en-US": "{\u0022markup\u0022:\u0022\\u003Cp style=\\u0022text-align: center;\\u0022\\u003E\\u003Cspan style=\\u0022color: rgb(85, 94, 115); font-family: Inter, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;\\u0022\\u003EPlease fill in the form below to download your free trial.\\u003C/span\\u003E\\u003Cbr\\u003E\\u003Cspan style=\\u0022color: rgb(85, 94, 115); font-family: Inter, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;\\u0022\\u003EWe will only use this information to tell you about upgrades and other product-related announcements.\\u003C/span\\u003E\\u003Cbr\\u003E\\u003Cspan style=\\u0022color: rgb(85, 94, 115); font-family: Inter, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;\\u0022\\u003EYou can unsubscribe at any time.\\u003C/span\\u003E\\u003C/p\\u003E\\u003Cp style=\\u0022text-align: center;\\u0022\\u003E\\u003Cspan style=\\u0022color: rgb(128, 0, 0); font-family: Inter, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;\\u0022\\u003EYour email address will remain completely confidential and will not be shared with any another parties or placed on any mailing lists.\\u003C/span\\u003E\\u003C/p\\u003E\u0022,\u0022blocks\u0022:{\u0022contentData\u0022:[],\u0022settingsData\u0022:[],\u0022expose\u0022:[],\u0022Layout\u0022:{}}}",
+        "ru": "{\u0022markup\u0022:\u0022\\u003Cp style=\\u0022text-align: center;\\u0022\\u003E\\u003Cspan class=\\u0022s1\\u0022\\u003E\\u041F\\u043E\\u0436\\u0430\\u043B\\u0443\\u0439\\u0441\\u0442\\u0430, \\u0437\\u0430\\u043F\\u043E\\u043B\\u043D\\u0438\\u0442\\u0435 \\u0444\\u043E\\u0440\\u043C\\u0443 \\u043D\\u0438\\u0436\\u0435, \\u0447\\u0442\\u043E\\u0431\\u044B \\u0441\\u043A\\u0430\\u0447\\u0430\\u0442\\u044C \\u0431\\u0435\\u0441\\u043F\\u043B\\u0430\\u0442\\u043D\\u0443\\u044E \\u043F\\u0440\\u043E\\u0431\\u043D\\u0443\\u044E \\u0432\\u0435\\u0440\\u0441\\u0438\\u044E.\\u003C/span\\u003E\\u003Cspan class=\\u0022Apple-converted-space\\u0022\\u003E\\u0026nbsp;\\u003C/span\\u003E\\u003Cspan class=\\u0022s1\\u0022\\u003E \\u041C\\u044B \\u0438\\u0441\\u043F\\u043E\\u043B\\u044C\\u0437\\u0443\\u0435\\u043C \\u044D\\u0442\\u0443 \\u0438\\u043D\\u0444\\u043E\\u0440\\u043C\\u0430\\u0446\\u0438\\u044E \\u0442\\u043E\\u043B\\u044C\\u043A\\u043E \\u0434\\u043B\\u044F \\u0443\\u0432\\u0435\\u0434\\u043E\\u043C\\u043B\\u0435\\u043D\\u0438\\u0439 \\u043E\\u0431 \\u043E\\u0431\\u043D\\u043E\\u0432\\u043B\\u0435\\u043D\\u0438\\u044F\\u0445 \\u0438 \\u0434\\u0440\\u0443\\u0433\\u0438\\u0445 \\u043D\\u043E\\u0432\\u043E\\u0441\\u0442\\u044F\\u0445, \\u0441\\u0432\\u044F\\u0437\\u0430\\u043D\\u043D\\u044B\\u0445 \\u0441 \\u043F\\u0440\\u043E\\u0434\\u0443\\u043A\\u0442\\u043E\\u043C.\\u0412\\u044B \\u043C\\u043E\\u0436\\u0435\\u0442\\u0435 \\u043E\\u0442\\u043A\\u0430\\u0437\\u0430\\u0442\\u044C\\u0441\\u044F \\u043E\\u0442 \\u043F\\u043E\\u0434\\u043F\\u0438\\u0441\\u043A\\u0438 \\u0432 \\u043B\\u044E\\u0431\\u043E\\u0435 \\u0432\\u0440\\u0435\\u043C\\u044F.\\u003C/span\\u003E\\u003C/p\\u003E\\u003Cp style=\\u0022text-align: center;\\u0022\\u003E\\u003C/p\\u003E\u0022,\u0022blocks\u0022:{\u0022contentData\u0022:[],\u0022settingsData\u0022:[],\u0022expose\u0022:[],\u0022Layout\u0022:{}}}"
+      },
+      "emailPrivacyNotice": {
+        "ru": "\u0412\u0430\u0448 email \u043E\u0441\u0442\u0430\u043D\u0435\u0442\u0441\u044F \u043F\u043E\u043B\u043D\u043E\u0441\u0442\u044C\u044E \u043A\u043E\u043D\u0444\u0438\u0434\u0435\u043D\u0446\u0438\u0430\u043B\u044C\u043D\u044B\u043C \u0438 \u043D\u0435 \u0431\u0443\u0434\u0435\u0442 \u043F\u0435\u0440\u0435\u0434\u0430\u043D \u0442\u0440\u0435\u0442\u044C\u0438\u043C \u043B\u0438\u0446\u0430\u043C \u0438\u043B\u0438 \u0434\u043E\u0431\u0430\u0432\u043B\u0435\u043D \u0432 \u0440\u0430\u0441\u0441\u044B\u043B\u043A\u0443."
+      },
+      "nameLabel": {
+        "en-US": "Name",
+        "ru": "\u0418\u043C\u044F"
+      },
+      "namePlaceholder": {},
+      "companyLabel": {
+        "en-US": "Company Name:",
+        "ru": "\u041A\u043E\u043C\u043F\u0430\u043D\u0438\u044F"
+      },
+      "companyPlaceholder": {},
+      "phoneLabel": {
+        "en-US": "Phone",
+        "ru": "\u0422\u0435\u043B\u0435\u0444\u043E\u043D"
+      },
+      "phonePlaceholder": {},
+      "emailLabel": {
+        "en-US": "Email:",
+        "ru": "Email"
+      },
+      "emailPlaceholder": {},
+      "submitButtonText": {
+        "en-US": " Submit",
+        "ru": "\u041E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u044C"
+      }
+    },
+    "UpdateDate": "2025-11-24T14:44:41.37+02:00"
+  },
+  "CultureInfos": [
+    {
+      "Culture": "en-US",
+      "Value": "Download BusinessV7",
+      "Date": "2025-11-23T20:37:41.08+02:00"
+    },
+    {
+      "Culture": "ru",
+      "Value": "Download BusinessV7",
+      "Date": "2025-11-24T14:44:41.37+02:00"
+    }
+  ],
+  "PublishedCultureInfos": [
+    {
+      "Culture": "en-US",
+      "Value": "Download BusinessV7",
+      "Date": "2025-11-23T20:37:41.08+02:00"
+    },
+    {
+      "Culture": "ru",
+      "Value": "Download BusinessV7",
+      "Date": "2025-11-24T14:44:41.37+02:00"
+    }
+  ],
+  "PublishedCultures": [
+    "en-US",
+    "ru"
+  ],
+  "Writer": "sasha.maksyutenko@gmail.com",
+  "PublicAccessRules": [],
+  "Schedule": [],
+  "Domains": [
+    {
+      "LanguageIsoCode": "ru",
+      "DomainName": "*1099"
+    },
+    {
+      "LanguageIsoCode": "ru",
+      "DomainName": "/download-businessv7/ru"
+    },
+    {
+      "LanguageIsoCode": "uk",
+      "DomainName": "/download-businessv7/uk"
+    },
+    {
+      "LanguageIsoCode": "en-US",
+      "DomainName": "/download-businessv7/en"
+    }
+  ],
+  "Parent": "umb://document/49c1cf81c765472bb07d8c2692634e71",
+  "ContentType": "umb://document-type/6258e0a4e9bd44e18f324e57e89c760a",
+  "CreateDate": "2025-11-18T17:40:01.153+02:00",
+  "Creator": "sasha.maksyutenko@gmail.com",
+  "PropertyEditorAliases": {
+    "pageTitle": "Umbraco.TextBox",
+    "introText": "Umbraco.RichText",
+    "emailPrivacyNotice": "Umbraco.TextBox",
+    "nameLabel": "Umbraco.TextBox",
+    "namePlaceholder": "Umbraco.TextBox",
+    "companyLabel": "Umbraco.TextBox",
+    "companyPlaceholder": "Umbraco.TextBox",
+    "phoneLabel": "Umbraco.TextBox",
+    "phonePlaceholder": "Umbraco.TextBox",
+    "emailLabel": "Umbraco.TextBox",
+    "emailPlaceholder": "Umbraco.TextBox",
+    "submitButtonText": "Umbraco.TextBox"
+  },
+  "Udi": "umb://document/385a82e9c90a42178666993930f48055",
+  "Dependencies": [
+    {
+      "Udi": "umb://document-type/6258e0a4e9bd44e18f324e57e89c760a",
+      "Ordering": true,
+      "Checksum": "9D5653F3F3D81F78CA2C4B836CF82F1EC050BBA5"
+    },
+    {
+      "Udi": "umb://document/49c1cf81c765472bb07d8c2692634e71",
+      "Ordering": true,
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://language/en-US",
+      "Ordering": true,
+      "Checksum": "AD30232C89A8107A860F116387B2353925E11505"
+    },
+    {
+      "Udi": "umb://language/ru",
+      "Ordering": true,
+      "Checksum": "87726DBFAA34C9D57A5DA05144C26FA710B47E5F"
+    },
+    {
+      "Udi": "umb://language/uk",
+      "Ordering": true,
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://template/65425a1ff569432aba995089941954f2",
+      "Ordering": true,
+      "Mode": "Exist"
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.Content.DocumentArtifact",
+  "__version": "16.0.4"
+}

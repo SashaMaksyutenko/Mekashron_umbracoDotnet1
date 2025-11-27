@@ -1,0 +1,8 @@
+{
+  "Name": "umb://media-file/zqadulmg/solution.svg",
+  "ChecksumValue": "3F051F750B748BA2F47ABC26A9A2E9BB778881D3",
+  "Udi": "umb://media-file/zqadulmg/solution.svg",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.FileArtifact",
+  "__version": "16.0.4"
+}

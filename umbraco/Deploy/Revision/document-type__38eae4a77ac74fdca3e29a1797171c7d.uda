@@ -69,19 +69,23 @@
   "Dependencies": [
     {
       "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
-      "Ordering": true
+      "Ordering": true,
+      "Checksum": "93E19DD1B785E96957E870B0FDC285C53EA3375F"
     },
     {
       "Udi": "umb://data-type/4309a3ea0d784329a06cc80b036af19a",
-      "Ordering": true
+      "Ordering": true,
+      "Checksum": "24230949C5DD4BFCA023CE0CEE60B40571D2558F"
     },
     {
       "Udi": "umb://data-type/b4e3535a175347e28568602cf8cfee6f",
-      "Ordering": true
+      "Ordering": true,
+      "Checksum": "523B8BB571EC26ED989BFE53E7F3C9C9E93173E6"
     },
     {
       "Udi": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
-      "Ordering": true
+      "Ordering": true,
+      "Checksum": "461A86F408D8B98F0F7E14BD89826001C31A42E9"
     }
   ],
   "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",

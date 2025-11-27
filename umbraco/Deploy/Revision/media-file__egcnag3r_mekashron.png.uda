@@ -1,0 +1,8 @@
+{
+  "Name": "umb://media-file/egcnag3r/mekashron.png",
+  "ChecksumValue": "68AB01D42701B99EA96539798E63DAC0236A6582",
+  "Udi": "umb://media-file/egcnag3r/mekashron.png",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.FileArtifact",
+  "__version": "16.0.4"
+}

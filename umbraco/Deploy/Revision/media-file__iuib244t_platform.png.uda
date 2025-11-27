@@ -1,0 +1,8 @@
+{
+  "Name": "umb://media-file/iuib244t/platform.png",
+  "ChecksumValue": "0ABA43487046077224364785BED0311240BD07FB",
+  "Udi": "umb://media-file/iuib244t/platform.png",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.FileArtifact",
+  "__version": "16.0.4"
+}

@@ -1,0 +1,8 @@
+{
+  "Name": "umb://media-file/q4daqgyu/bag.svg",
+  "ChecksumValue": "0FEB2CCB6B825671FA482321DA17A1C6BD932792",
+  "Udi": "umb://media-file/q4daqgyu/bag.svg",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.FileArtifact",
+  "__version": "16.0.4"
+}

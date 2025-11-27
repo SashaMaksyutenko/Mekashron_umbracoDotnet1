@@ -1,0 +1,33 @@
+{
+  "Name": "solution.svg",
+  "Alias": "solution.svg",
+  "Properties": {
+    "umbracoFile": "/media/zqadulmg/solution.svg",
+    "umbracoExtension": "svg",
+    "umbracoBytes": "3150"
+  },
+  "SortOrder": 3,
+  "ContentType": "umb://media-type/c4b1efcfa9d541c49621e9d273b52a9c",
+  "CreateDate": "2025-11-15T18:16:24.35+02:00",
+  "Creator": "sasha.maksyutenko@gmail.com",
+  "PropertyEditorAliases": {
+    "umbracoFile": "Umbraco.UploadField",
+    "umbracoExtension": "Umbraco.Label",
+    "umbracoBytes": "Umbraco.Label"
+  },
+  "Udi": "umb://media/cf98bd3ef99d479ab1205eda7ac597d9",
+  "Dependencies": [
+    {
+      "Udi": "umb://media-file/zqadulmg/solution.svg",
+      "Ordering": true,
+      "Checksum": "3F051F750B748BA2F47ABC26A9A2E9BB778881D3"
+    },
+    {
+      "Udi": "umb://media-type/c4b1efcfa9d541c49621e9d273b52a9c",
+      "Ordering": true,
+      "Checksum": "BA8A63776DCBFC6A86A2A9285F706A9255303D02"
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.Content.MediaArtifact",
+  "__version": "16.0.4"
+}

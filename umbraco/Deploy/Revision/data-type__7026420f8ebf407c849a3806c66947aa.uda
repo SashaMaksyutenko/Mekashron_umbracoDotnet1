@@ -13,7 +13,8 @@
   "Udi": "umb://data-type/7026420f8ebf407c849a3806c66947aa",
   "Dependencies": [
     {
-      "Udi": "umb://document-type/e4028f051bb94c11a40321368684baa8"
+      "Udi": "umb://document-type/e4028f051bb94c11a40321368684baa8",
+      "Checksum": "6337E3B16C35D012CB8C2EBE43F7EE61C8F90EDD"
     }
   ],
   "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",

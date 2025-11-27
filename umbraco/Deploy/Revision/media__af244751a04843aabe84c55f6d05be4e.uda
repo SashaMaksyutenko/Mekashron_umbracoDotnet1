@@ -1,0 +1,33 @@
+{
+  "Name": "profichat.png (1)",
+  "Alias": "profichat.png (1)",
+  "Properties": {
+    "umbracoFile": "/media/uixn4d1p/profichat.png",
+    "umbracoExtension": "png",
+    "umbracoBytes": "59782"
+  },
+  "SortOrder": 16,
+  "ContentType": "umb://media-type/4c52d8ab54e640cd999c7a5f24903e4d",
+  "CreateDate": "2025-11-23T20:21:23.457+02:00",
+  "Creator": "sasha.maksyutenko@gmail.com",
+  "PropertyEditorAliases": {
+    "umbracoFile": "Umbraco.UploadField",
+    "umbracoExtension": "Umbraco.Label",
+    "umbracoBytes": "Umbraco.Label"
+  },
+  "Udi": "umb://media/af244751a04843aabe84c55f6d05be4e",
+  "Dependencies": [
+    {
+      "Udi": "umb://media-file/uixn4d1p/profichat.png",
+      "Ordering": true,
+      "Checksum": "9AC46E8E6F2917FCCC652D3B8196A85E1F44FFDC"
+    },
+    {
+      "Udi": "umb://media-type/4c52d8ab54e640cd999c7a5f24903e4d",
+      "Ordering": true,
+      "Checksum": "62172A467F4D0A7587211D7ED047422EB5A72E85"
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.Content.MediaArtifact",
+  "__version": "16.0.4"
+}

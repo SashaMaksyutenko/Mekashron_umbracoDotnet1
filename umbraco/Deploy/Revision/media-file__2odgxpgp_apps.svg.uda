@@ -1,0 +1,8 @@
+{
+  "Name": "umb://media-file/2odgxpgp/apps.svg",
+  "ChecksumValue": "714F24CBC6A4DFAAA8F9C6FA42EE8BFB1587452C",
+  "Udi": "umb://media-file/2odgxpgp/apps.svg",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.FileArtifact",
+  "__version": "16.0.4"
+}

@@ -33,7 +33,7 @@
     var aboutText = Model.Value<string>("aboutText");
     var aboutBtn = Model.Value<Link>("aboutButtonLink");
 
-    var ctaBlocks = Model.Value<IEnumerable<BlockListItem>>("ctaBlocks") ?? Enumerable.Empty<BlockListItem>();
+    var ctaBlocks = Model.Value<IEnumerable<BlockListItem>>("ctaSection") ?? Enumerable.Empty<BlockListItem>();
 }
 <!DOCTYPE html>
 <html lang="@System.Globalization.CultureInfo.CurrentCulture.TwoLetterISOLanguageName">
@@ -116,7 +116,7 @@
             Model.Value<IEnumerable<Link>>("mekashronSecondaryButtonLink")?.FirstOrDefault()?.Url ?? "#";
 
             var lang = CultureInfo.CurrentCulture.TwoLetterISOLanguageName;
-            var mekashronPrimaryLink = $"/downloadpage/{lang}";
+            var mekashronPrimaryLink = $"/download-businessv7/{lang}";
         }
 
         <section class="products">

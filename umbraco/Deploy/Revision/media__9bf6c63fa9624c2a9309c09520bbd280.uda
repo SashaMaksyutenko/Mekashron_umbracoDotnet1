@@ -1,0 +1,33 @@
+{
+  "Name": "zmenu.png (1)",
+  "Alias": "zmenu.png (1)",
+  "Properties": {
+    "umbracoFile": "/media/zsxa0o0f/zmenu.png",
+    "umbracoExtension": "png",
+    "umbracoBytes": "68214"
+  },
+  "SortOrder": 17,
+  "ContentType": "umb://media-type/4c52d8ab54e640cd999c7a5f24903e4d",
+  "CreateDate": "2025-11-23T20:22:25.263+02:00",
+  "Creator": "sasha.maksyutenko@gmail.com",
+  "PropertyEditorAliases": {
+    "umbracoFile": "Umbraco.UploadField",
+    "umbracoExtension": "Umbraco.Label",
+    "umbracoBytes": "Umbraco.Label"
+  },
+  "Udi": "umb://media/9bf6c63fa9624c2a9309c09520bbd280",
+  "Dependencies": [
+    {
+      "Udi": "umb://media-file/zsxa0o0f/zmenu.png",
+      "Ordering": true,
+      "Checksum": "F88E9B4A10400FFA3FEDBBA8B0E4028BC95A5620"
+    },
+    {
+      "Udi": "umb://media-type/4c52d8ab54e640cd999c7a5f24903e4d",
+      "Ordering": true,
+      "Checksum": "62172A467F4D0A7587211D7ED047422EB5A72E85"
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.Content.MediaArtifact",
+  "__version": "16.0.4"
+}

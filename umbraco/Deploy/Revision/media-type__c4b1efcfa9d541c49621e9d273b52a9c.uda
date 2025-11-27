@@ -44,15 +44,18 @@
   "Dependencies": [
     {
       "Udi": "umb://data-type/215cb418215344299aef8c0f0041191b",
-      "Ordering": true
+      "Ordering": true,
+      "Checksum": "892462025E29DD213D46366B2F8B54E97DB6FC1D"
     },
     {
       "Udi": "umb://data-type/ba5bdbe6ab3e46a882b32c45f10bc47f",
-      "Ordering": true
+      "Ordering": true,
+      "Checksum": "5A2914182B6D15231BD219E09F35C9E8D82AB6FE"
     },
     {
       "Udi": "umb://data-type/f0bc4bfbb49940d6ba86058885a5178c",
-      "Ordering": true
+      "Ordering": true,
+      "Checksum": "FA3546EA077825723D5B5AEA9F7D5F184CF4E138"
     }
   ],
   "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.MediaTypeArtifact",

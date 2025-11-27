@@ -1,0 +1,8 @@
+{
+  "Name": "umb://media-file/vdhp2kcc/gaming.svg",
+  "ChecksumValue": "1B4724D9EDD9D9DD7E4A806020C8DC8CC88B47CB",
+  "Udi": "umb://media-file/vdhp2kcc/gaming.svg",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.FileArtifact",
+  "__version": "16.0.4"
+}

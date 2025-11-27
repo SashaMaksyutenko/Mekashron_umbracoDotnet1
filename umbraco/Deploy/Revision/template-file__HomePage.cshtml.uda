@@ -1,0 +1,8 @@
+{
+  "Name": "umb://template-file/HomePage.cshtml",
+  "ChecksumValue": "3FD2958FB7C14CA16E2FE838B22470846B01543B",
+  "Udi": "umb://template-file/HomePage.cshtml",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.FileArtifact",
+  "__version": "16.0.4"
+}

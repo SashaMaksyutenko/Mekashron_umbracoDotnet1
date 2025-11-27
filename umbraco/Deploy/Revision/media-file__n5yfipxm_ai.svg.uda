@@ -1,0 +1,8 @@
+{
+  "Name": "umb://media-file/n5yfipxm/ai.svg",
+  "ChecksumValue": "82BE0BE494C65B7D8BA4B98DA420EEE743FB8926",
+  "Udi": "umb://media-file/n5yfipxm/ai.svg",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.FileArtifact",
+  "__version": "16.0.4"
+}

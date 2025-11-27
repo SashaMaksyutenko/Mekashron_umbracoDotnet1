@@ -1,0 +1,33 @@
+{
+  "Name": "gaming.svg",
+  "Alias": "gaming.svg",
+  "Properties": {
+    "umbracoFile": "/media/vdhp2kcc/gaming.svg",
+    "umbracoExtension": "svg",
+    "umbracoBytes": "2132"
+  },
+  "SortOrder": 5,
+  "ContentType": "umb://media-type/c4b1efcfa9d541c49621e9d273b52a9c",
+  "CreateDate": "2025-11-15T18:17:04.25+02:00",
+  "Creator": "sasha.maksyutenko@gmail.com",
+  "PropertyEditorAliases": {
+    "umbracoFile": "Umbraco.UploadField",
+    "umbracoExtension": "Umbraco.Label",
+    "umbracoBytes": "Umbraco.Label"
+  },
+  "Udi": "umb://media/ca5c725a505943f99b7be5bbf1c059a8",
+  "Dependencies": [
+    {
+      "Udi": "umb://media-file/vdhp2kcc/gaming.svg",
+      "Ordering": true,
+      "Checksum": "1B4724D9EDD9D9DD7E4A806020C8DC8CC88B47CB"
+    },
+    {
+      "Udi": "umb://media-type/c4b1efcfa9d541c49621e9d273b52a9c",
+      "Ordering": true,
+      "Checksum": "BA8A63776DCBFC6A86A2A9285F706A9255303D02"
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.Content.MediaArtifact",
+  "__version": "16.0.4"
+}

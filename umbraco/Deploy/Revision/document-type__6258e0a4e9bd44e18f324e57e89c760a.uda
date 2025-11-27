@@ -135,11 +135,13 @@
   "Dependencies": [
     {
       "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
-      "Ordering": true
+      "Ordering": true,
+      "Checksum": "93E19DD1B785E96957E870B0FDC285C53EA3375F"
     },
     {
       "Udi": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
-      "Ordering": true
+      "Ordering": true,
+      "Checksum": "5BAA71A25B1654FE7701746740FE2B52E387C566"
     },
     {
       "Udi": "umb://template/65425a1ff569432aba995089941954f2",

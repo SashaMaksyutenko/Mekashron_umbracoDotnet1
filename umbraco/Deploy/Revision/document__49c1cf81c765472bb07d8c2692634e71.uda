@@ -1,0 +1,370 @@
+{
+  "Name": "HomePage",
+  "Alias": "HomePage",
+  "PublishedName": "HomePage",
+  "PublishedVersion": {
+    "Template": "umb://template/eb22bdb067044fb2a05587de39a2039a",
+    "Properties": {
+      "heroTitle": {
+        "en-US": "Boost Your Business with AI",
+        "ru": "\u0423\u0432\u0435\u043B\u0438\u0447\u044C\u0442\u0435 \u044D\u0444\u0444\u0435\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u044C \u0431\u0438\u0437\u043D\u0435\u0441\u0430 \u0441 \u043F\u043E\u043C\u043E\u0449\u044C\u044E \u0418\u0418"
+      },
+      "heroSubtitle": {
+        "en-US": "20 Years of Development Experience\n\n",
+        "ru": "20 \u043B\u0435\u0442 \u043E\u043F\u044B\u0442\u0430 \u0432 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0435"
+      },
+      "heroDesktopBackground": {
+        "en-US": "[{\u0022key\u0022:\u002287e5bd5c-c4be-42b0-a6b6-70feb400c66c\u0022,\u0022mediaKey\u0022:\u0022719d0e55-a52c-4158-a269-8f478b0f8809\u0022,\u0022mediaTypeAlias\u0022:\u0022File\u0022,\u0022crops\u0022:[],\u0022focalPoint\u0022:{\u0022left\u0022:0.7190048939641109,\u0022top\u0022:0.5146198607327646}}]",
+        "ru": "[{\u0022key\u0022:\u002221d87019-b582-431e-9581-fd0cd66e8aa9\u0022,\u0022mediaKey\u0022:\u0022719d0e55-a52c-4158-a269-8f478b0f8809\u0022,\u0022mediaTypeAlias\u0022:\u0022File\u0022,\u0022crops\u0022:[],\u0022focalPoint\u0022:{\u0022left\u0022:0.9033442088091354,\u0022top\u0022:0.5475145975748698}}]"
+      },
+      "heroDescription": {
+        "en-US": "With over two decades of proven software development experience, we specialize\nin building advanced platforms and are experts in AI-driven automation solutions.\nFrom enterprise tools to industry specific systems, we deliver innovation, reliability, and scale.",
+        "ru": "\u0421 \u0431\u043E\u043B\u0435\u0435 \u0447\u0435\u043C 20-\u043B\u0435\u0442\u043D\u0438\u043C \u043E\u043F\u044B\u0442\u043E\u043C \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u043E\u0433\u043E \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u0438\u044F \u043C\u044B \u0441\u043F\u0435\u0446\u0438\u0430\u043B\u0438\u0437\u0438\u0440\u0443\u0435\u043C\u0441\u044F \u043D\u0430 \u0441\u043E\u0437\u0434\u0430\u043D\u0438\u0438 \u043F\u0440\u043E\u0434\u0432\u0438\u043D\u0443\u0442\u044B\u0445 \u043F\u043B\u0430\u0442\u0444\u043E\u0440\u043C \u0438 \u044F\u0432\u043B\u044F\u0435\u043C\u0441\u044F \u044D\u043A\u0441\u043F\u0435\u0440\u0442\u0430\u043C\u0438 \u0432 \u043E\u0431\u043B\u0430\u0441\u0442\u0438 \u0430\u0432\u0442\u043E\u043C\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u0438 \u043D\u0430 \u0431\u0430\u0437\u0435 \u0438\u0441\u043A\u0443\u0441\u0441\u0442\u0432\u0435\u043D\u043D\u043E\u0433\u043E \u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0430. \u041E\u0442 \u043A\u043E\u0440\u043F\u043E\u0440\u0430\u0442\u0438\u0432\u043D\u044B\u0445 \u0438\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u043E\u0432 \u0434\u043E \u043E\u0442\u0440\u0430\u0441\u043B\u0435\u0432\u044B\u0445 \u0440\u0435\u0448\u0435\u043D\u0438\u0439 \u2014 \u043C\u044B \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0438\u0432\u0430\u0435\u043C \u0438\u043D\u043D\u043E\u0432\u0430\u0446\u0438\u0438, \u043D\u0430\u0434\u0435\u0436\u043D\u043E\u0441\u0442\u044C \u0438 \u043C\u0430\u0441\u0448\u0442\u0430\u0431\u0438\u0440\u0443\u0435\u043C\u043E\u0441\u0442\u044C."
+      },
+      "heroButton1Text": {
+        "en-US": "Explore Solutions",
+        "ru": "\u0418\u0437\u0443\u0447\u0438\u0442\u044C \u0420\u0435\u0448\u0435\u043D\u0438\u044F"
+      },
+      "heroButton1Link": {
+        "en-US": "[{\u0022name\u0022:\u0022\u0022,\u0022target\u0022:null,\u0022udi\u0022:null,\u0022url\u0022:\u0022#\u0022,\u0022queryString\u0022:null}]"
+      },
+      "heroButton2Text": {
+        "en-US": "Contact us",
+        "ru": "\u0421\u0432\u044F\u0437\u0430\u0442\u044C\u0441\u044F \u0441 \u043D\u0430\u043C\u0438"
+      },
+      "heroButton2Link": {
+        "en-US": "[{\u0022name\u0022:\u0022\u0022,\u0022target\u0022:null,\u0022udi\u0022:null,\u0022url\u0022:\u0022#\u0022,\u0022queryString\u0022:null}]"
+      },
+      "expertiseTitle": {
+        "en-US": "Our Expertise",
+        "ru": "\u041D\u0430\u0448\u0438 \u043A\u043E\u043C\u043F\u0435\u0442\u0435\u043D\u0446\u0438\u0438"
+      },
+      "expertiseItems": {
+        "en-US": "{\u0022contentData\u0022:[{\u0022contentTypeKey\u0022:\u002238eae4a7-7ac7-4fdc-a3e2-9a1797171c7d\u0022,\u0022udi\u0022:null,\u0022key\u0022:\u002263822ecc-724a-4c70-ae73-804fe684fb3c\u0022,\u0022values\u0022:[{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022en-US\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022icon\u0022,\u0022value\u0022:\u0022[{\\u0022key\\u0022:\\u0022088ea70b-efa1-4a13-975e-944a06254967\\u0022,\\u0022mediaKey\\u0022:\\u0022dcf64c9d-b1f7-4208-81c3-08f611167238\\u0022,\\u0022mediaTypeAlias\\u0022:\\u0022umbracoMediaVectorGraphics\\u0022,\\u0022crops\\u0022:[],\\u0022focalPoint\\u0022:null}]\u0022},{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022en-US\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022title\u0022,\u0022value\u0022:\u0022Platform Development\u0022},{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022en-US\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022description\u0022,\u0022value\u0022:\u0022Custom AI systems and scalable platforms\u0022},{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022en-US\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022linkText\u0022,\u0022value\u0022:\u0022Learn more\u0022},{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022en-US\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022linkUrl\u0022,\u0022value\u0022:\u0022[{\\u0022name\\u0022:\\u0022\\u0022,\\u0022target\\u0022:null,\\u0022udi\\u0022:null,\\u0022url\\u0022:\\u0022#\\u0022,\\u0022queryString\\u0022:null}]\u0022}]},{\u0022contentTypeKey\u0022:\u002238eae4a7-7ac7-4fdc-a3e2-9a1797171c7d\u0022,\u0022udi\u0022:null,\u0022key\u0022:\u0022c405156f-5b2e-4c3d-bfb6-7553f16da85a\u0022,\u0022values\u0022:[{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022en-US\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022title\u0022,\u0022value\u0022:\u0022Enterprise Solutions\u0022},{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022en-US\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022icon\u0022,\u0022value\u0022:\u0022[{\\u0022key\\u0022:\\u0022a632f755-57e5-413f-b964-9060f9f17912\\u0022,\\u0022mediaKey\\u0022:\\u0022cf98bd3e-f99d-479a-b120-5eda7ac597d9\\u0022,\\u0022mediaTypeAlias\\u0022:\\u0022umbracoMediaVectorGraphics\\u0022,\\u0022crops\\u0022:[],\\u0022focalPoint\\u0022:null}]\u0022},{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022en-US\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022description\u0022,\u0022value\u0022:\u0022Reliable systems for every business\u0022},{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022en-US\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022linkText\u0022,\u0022value\u0022:\u0022 Learn more\u0022},{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022en-US\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022linkUrl\u0022,\u0022value\u0022:\u0022[{\\u0022name\\u0022:\\u0022\\u0022,\\u0022target\\u0022:null,\\u0022udi\\u0022:null,\\u0022url\\u0022:\\u0022#\\u0022,\\u0022queryString\\u0022:null}]\u0022}]},{\u0022contentTypeKey\u0022:\u002238eae4a7-7ac7-4fdc-a3e2-9a1797171c7d\u0022,\u0022udi\u0022:null,\u0022key\u0022:\u00221ee7f5cd-ffa5-4122-a0ef-1459074255be\u0022,\u0022values\u0022:[{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022en-US\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022title\u0022,\u0022value\u0022:\u0022Gaming \\u0026 Entertainment\u0022},{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022en-US\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022icon\u0022,\u0022value\u0022:\u0022[{\\u0022key\\u0022:\\u00225e16413b-5cc0-4799-a926-852d2601fd0f\\u0022,\\u0022mediaKey\\u0022:\\u0022ca5c725a-5059-43f9-9b7b-e5bbf1c059a8\\u0022,\\u0022mediaTypeAlias\\u0022:\\u0022umbracoMediaVectorGraphics\\u0022,\\u0022crops\\u0022:[],\\u0022focalPoint\\u0022:null}]\u0022},{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022en-US\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022description\u0022,\u0022value\u0022:\u0022iGaming platforms and integrations\u0022},{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022en-US\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022linkText\u0022,\u0022value\u0022:\u0022Learn more\u0022},{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022en-US\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022linkUrl\u0022,\u0022value\u0022:\u0022[{\\u0022name\\u0022:\\u0022\\u0022,\\u0022target\\u0022:null,\\u0022udi\\u0022:null,\\u0022url\\u0022:\\u0022#\\u0022,\\u0022queryString\\u0022:null}]\u0022}]},{\u0022contentTypeKey\u0022:\u002238eae4a7-7ac7-4fdc-a3e2-9a1797171c7d\u0022,\u0022udi\u0022:null,\u0022key\u0022:\u002211abcbfb-6981-4bbd-8fd1-98f0e437b090\u0022,\u0022values\u0022:[{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022en-US\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022title\u0022,\u0022value\u0022:\u0022Custom Apps\u0022},{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022en-US\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022description\u0022,\u0022value\u0022:\u0022Tailor made mobile and SaaS solutions\u0022},{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022en-US\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022linkText\u0022,\u0022value\u0022:\u0022Learn more\u0022},{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022en-US\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022icon\u0022,\u0022value\u0022:\u0022[{\\u0022key\\u0022:\\u0022db3cb96a-2d23-42f5-9bd8-25a95584a472\\u0022,\\u0022mediaKey\\u0022:\\u00225ec93b11-5cd4-4160-947e-8ca18d7fa84b\\u0022,\\u0022mediaTypeAlias\\u0022:\\u0022umbracoMediaVectorGraphics\\u0022,\\u0022crops\\u0022:[],\\u0022focalPoint\\u0022:null}]\u0022},{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022en-US\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022linkUrl\u0022,\u0022value\u0022:\u0022[{\\u0022name\\u0022:\\u0022\\u0022,\\u0022target\\u0022:null,\\u0022udi\\u0022:null,\\u0022url\\u0022:\\u0022#\\u0022,\\u0022queryString\\u0022:null}]\u0022}]}],\u0022settingsData\u0022:[],\u0022expose\u0022:[{\u0022contentKey\u0022:\u002263822ecc-724a-4c70-ae73-804fe684fb3c\u0022,\u0022culture\u0022:\u0022en-US\u0022,\u0022segment\u0022:null},{\u0022contentKey\u0022:\u0022c405156f-5b2e-4c3d-bfb6-7553f16da85a\u0022,\u0022culture\u0022:\u0022en-US\u0022,\u0022segment\u0022:null},{\u0022contentKey\u0022:\u00221ee7f5cd-ffa5-4122-a0ef-1459074255be\u0022,\u0022culture\u0022:\u0022en-US\u0022,\u0022segment\u0022:null},{\u0022contentKey\u0022:\u002211abcbfb-6981-4bbd-8fd1-98f0e437b090\u0022,\u0022culture\u0022:\u0022en-US\u0022,\u0022segment\u0022:null}],\u0022Layout\u0022:{\u0022Umbraco.BlockList\u0022:[{\u0022contentUdi\u0022:null,\u0022settingsUdi\u0022:null,\u0022contentKey\u0022:\u002263822ecc-724a-4c70-ae73-804fe684fb3c\u0022,\u0022settingsKey\u0022:null},{\u0022contentUdi\u0022:null,\u0022settingsUdi\u0022:null,\u0022contentKey\u0022:\u0022c405156f-5b2e-4c3d-bfb6-7553f16da85a\u0022,\u0022settingsKey\u0022:null},{\u0022contentUdi\u0022:null,\u0022settingsUdi\u0022:null,\u0022contentKey\u0022:\u00221ee7f5cd-ffa5-4122-a0ef-1459074255be\u0022,\u0022settingsKey\u0022:null},{\u0022contentUdi\u0022:null,\u0022settingsUdi\u0022:null,\u0022contentKey\u0022:\u002211abcbfb-6981-4bbd-8fd1-98f0e437b090\u0022,\u0022settingsKey\u0022:null}]}}",
+        "ru": "{\u0022contentData\u0022:[{\u0022contentTypeKey\u0022:\u002238eae4a7-7ac7-4fdc-a3e2-9a1797171c7d\u0022,\u0022udi\u0022:null,\u0022key\u0022:\u0022c1e77f1e-030b-4d3b-80a4-6b4eb789ba83\u0022,\u0022values\u0022:[{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022ru\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022icon\u0022,\u0022value\u0022:\u0022[{\\u0022key\\u0022:\\u00223d0109f8-2bc2-4190-b969-0a40dd73d206\\u0022,\\u0022mediaKey\\u0022:\\u0022dcf64c9d-b1f7-4208-81c3-08f611167238\\u0022,\\u0022mediaTypeAlias\\u0022:\\u0022umbracoMediaVectorGraphics\\u0022,\\u0022crops\\u0022:[],\\u0022focalPoint\\u0022:null}]\u0022},{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022ru\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022title\u0022,\u0022value\u0022:\u0022\\u0420\\u0430\\u0437\\u0440\\u0430\\u0431\\u043E\\u0442\\u043A\\u0430 \\u043F\\u043B\\u0430\\u0442\\u0444\\u043E\\u0440\\u043C\u0022},{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022ru\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022description\u0022,\u0022value\u0022:\u0022\\u041A\\u0430\\u0441\\u0442\\u043E\\u043C\\u043D\\u044B\\u0435 \\u0418\\u0418-\\u0441\\u0438\\u0441\\u0442\\u0435\\u043C\\u044B \\u0438 \\u043C\\u0430\\u0441\\u0448\\u0442\\u0430\\u0431\\u0438\\u0440\\u0443\\u0435\\u043C\\u044B\\u0435 \\u0440\\u0435\\u0448\\u0435\\u043D\\u0438\\u044F\u0022},{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022ru\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022linkText\u0022,\u0022value\u0022:\u0022\\u041F\\u043E\\u0434\\u0440\\u043E\\u0431\\u043D\\u0435\\u0435\u0022}]},{\u0022contentTypeKey\u0022:\u002238eae4a7-7ac7-4fdc-a3e2-9a1797171c7d\u0022,\u0022udi\u0022:null,\u0022key\u0022:\u002230c37bef-b34e-45f2-a9d8-9c4168475cc4\u0022,\u0022values\u0022:[{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022ru\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022icon\u0022,\u0022value\u0022:\u0022[{\\u0022key\\u0022:\\u0022ae889583-0713-409e-b768-c51bcb28a9a3\\u0022,\\u0022mediaKey\\u0022:\\u0022cf98bd3e-f99d-479a-b120-5eda7ac597d9\\u0022,\\u0022mediaTypeAlias\\u0022:\\u0022umbracoMediaVectorGraphics\\u0022,\\u0022crops\\u0022:[],\\u0022focalPoint\\u0022:null}]\u0022},{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022ru\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022title\u0022,\u0022value\u0022:\u0022\\u041A\\u043E\\u0440\\u043F\\u043E\\u0440\\u0430\\u0442\\u0438\\u0432\\u043D\\u044B\\u0435 \\u0440\\u0435\\u0448\\u0435\\u043D\\u0438\\u044F\u0022},{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022ru\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022description\u0022,\u0022value\u0022:\u0022\\u041D\\u0430\\u0434\\u0435\\u0436\\u043D\\u044B\\u0435 \\u0441\\u0438\\u0441\\u0442\\u0435\\u043C\\u044B \\u0434\\u043B\\u044F \\u043B\\u044E\\u0431\\u043E\\u0433\\u043E \\u0431\\u0438\\u0437\\u043D\\u0435\\u0441\\u0430\u0022},{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022ru\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022linkText\u0022,\u0022value\u0022:\u0022\\u041F\\u043E\\u0434\\u0440\\u043E\\u0431\\u043D\\u0435\\u0435\u0022}]},{\u0022contentTypeKey\u0022:\u002238eae4a7-7ac7-4fdc-a3e2-9a1797171c7d\u0022,\u0022udi\u0022:null,\u0022key\u0022:\u0022e43a08cf-61c8-4721-bf2a-8e6d3d947a7f\u0022,\u0022values\u0022:[{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022ru\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022icon\u0022,\u0022value\u0022:\u0022[{\\u0022key\\u0022:\\u0022382291ab-5ec3-427e-9510-2f8822be7aaa\\u0022,\\u0022mediaKey\\u0022:\\u0022ca5c725a-5059-43f9-9b7b-e5bbf1c059a8\\u0022,\\u0022mediaTypeAlias\\u0022:\\u0022umbracoMediaVectorGraphics\\u0022,\\u0022crops\\u0022:[],\\u0022focalPoint\\u0022:null}]\u0022},{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022ru\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022title\u0022,\u0022value\u0022:\u0022\\u0418\\u0433\\u0440\\u044B \\u0438 \\u0440\\u0430\\u0437\\u0432\\u043B\\u0435\\u0447\\u0435\\u043D\\u0438\\u044F\u0022},{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022ru\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022description\u0022,\u0022value\u0022:\u0022\\u041F\\u043B\\u0430\\u0442\\u0444\\u043E\\u0440\\u043C\\u044B \\u0434\\u043B\\u044F IGaming \\u0438 \\u0438\\u043D\\u0442\\u0435\\u0433\\u0440\\u0430\\u0446\\u0438\\u0438\u0022},{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022ru\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022linkText\u0022,\u0022value\u0022:\u0022\\u041F\\u043E\\u0434\\u0440\\u043E\\u0431\\u043D\\u0435\\u0435\u0022}]},{\u0022contentTypeKey\u0022:\u002238eae4a7-7ac7-4fdc-a3e2-9a1797171c7d\u0022,\u0022udi\u0022:null,\u0022key\u0022:\u0022ce9d92d7-6d9b-4653-9c9e-e88bba9af41d\u0022,\u0022values\u0022:[{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022ru\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022icon\u0022,\u0022value\u0022:\u0022[{\\u0022key\\u0022:\\u0022bcdd161e-e162-4895-920e-bc69750e9928\\u0022,\\u0022mediaKey\\u0022:\\u00225ec93b11-5cd4-4160-947e-8ca18d7fa84b\\u0022,\\u0022mediaTypeAlias\\u0022:\\u0022umbracoMediaVectorGraphics\\u0022,\\u0022crops\\u0022:[],\\u0022focalPoint\\u0022:null}]\u0022},{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022ru\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022title\u0022,\u0022value\u0022:\u0022\\u0418\\u043D\\u0434\\u0438\\u0432\\u0438\\u0434\\u0443\\u0430\\u043B\\u044C\\u043D\\u044B\\u0435 \\u043F\\u0440\\u0438\\u043B\\u043E\\u0436\\u0435\\u043D\\u0438\\u044F\u0022},{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022ru\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022description\u0022,\u0022value\u0022:\u0022\\u041C\\u043E\\u0431\\u0438\\u043B\\u044C\\u043D\\u044B\\u0435 \\u0438 SaaS-\\u0440\\u0435\\u0448\\u0435\\u043D\\u0438\\u044F \\u043F\\u043E\\u0434 \\u0437\\u0430\\u043A\\u0430\\u0437\u0022},{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022ru\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022linkText\u0022,\u0022value\u0022:\u0022\\u041F\\u043E\\u0434\\u0440\\u043E\\u0431\\u043D\\u0435\\u0435\u0022}]}],\u0022settingsData\u0022:[],\u0022expose\u0022:[{\u0022contentKey\u0022:\u0022c1e77f1e-030b-4d3b-80a4-6b4eb789ba83\u0022,\u0022culture\u0022:\u0022ru\u0022,\u0022segment\u0022:null},{\u0022contentKey\u0022:\u002230c37bef-b34e-45f2-a9d8-9c4168475cc4\u0022,\u0022culture\u0022:\u0022ru\u0022,\u0022segment\u0022:null},{\u0022contentKey\u0022:\u0022e43a08cf-61c8-4721-bf2a-8e6d3d947a7f\u0022,\u0022culture\u0022:\u0022ru\u0022,\u0022segment\u0022:null},{\u0022contentKey\u0022:\u0022ce9d92d7-6d9b-4653-9c9e-e88bba9af41d\u0022,\u0022culture\u0022:\u0022ru\u0022,\u0022segment\u0022:null}],\u0022Layout\u0022:{\u0022Umbraco.BlockList\u0022:[{\u0022contentUdi\u0022:null,\u0022settingsUdi\u0022:null,\u0022contentKey\u0022:\u0022c1e77f1e-030b-4d3b-80a4-6b4eb789ba83\u0022,\u0022settingsKey\u0022:null},{\u0022contentUdi\u0022:null,\u0022settingsUdi\u0022:null,\u0022contentKey\u0022:\u002230c37bef-b34e-45f2-a9d8-9c4168475cc4\u0022,\u0022settingsKey\u0022:null},{\u0022contentUdi\u0022:null,\u0022settingsUdi\u0022:null,\u0022contentKey\u0022:\u0022e43a08cf-61c8-4721-bf2a-8e6d3d947a7f\u0022,\u0022settingsKey\u0022:null},{\u0022contentUdi\u0022:null,\u0022settingsUdi\u0022:null,\u0022contentKey\u0022:\u0022ce9d92d7-6d9b-4653-9c9e-e88bba9af41d\u0022,\u0022settingsKey\u0022:null}]}}"
+      },
+      "productsTitle": {
+        "en-US": "Our Products",
+        "ru": "\u041D\u0430\u0448\u0438 \u041F\u0440\u043E\u0434\u0443\u043A\u0442\u044B"
+      },
+      "profichatImage": {
+        "en-US": "[{\u0022key\u0022:\u0022b866d991-fd57-4e38-ac36-e1eced987388\u0022,\u0022mediaKey\u0022:\u0022af244751-a048-43aa-be84-c55f6d05be4e\u0022,\u0022mediaTypeAlias\u0022:\u0022File\u0022,\u0022crops\u0022:[],\u0022focalPoint\u0022:null}]",
+        "ru": "[{\u0022key\u0022:\u00220ec427c5-7a41-4ae8-9e09-ed8061c71550\u0022,\u0022mediaKey\u0022:\u0022af244751-a048-43aa-be84-c55f6d05be4e\u0022,\u0022mediaTypeAlias\u0022:\u0022File\u0022,\u0022crops\u0022:[],\u0022focalPoint\u0022:null}]"
+      },
+      "profichatTitle": {
+        "en-US": "Profichat.net",
+        "ru": "Profichat.net"
+      },
+      "profichatDescription": {
+        "en-US": "{\u0022markup\u0022:\u0022\\u003Cp\\u003EOmnichannel CRM and AI communication platform\\u003C/p\\u003E\\u003Cdiv class=\\u0022buttons\\u0022 style=\\u0022box-sizing: border-box; display: flex; -webkit-box-pack: start; justify-content: flex-start; -webkit-box-align: center; align-items: center; gap: 20px; color: rgb(3, 19, 54); font-family: Inter, sans-serif; font-size: 22px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\\u0022\\u003E\\u003C/div\\u003E\\u003Cp\\u003E\\u003C/p\\u003E\u0022,\u0022blocks\u0022:{\u0022contentData\u0022:[],\u0022settingsData\u0022:[],\u0022expose\u0022:[],\u0022Layout\u0022:{}}}",
+        "ru": "{\u0022markup\u0022:\u0022\\u003Cp\\u003E\\u003Cspan class=\\u0022s1\\u0022\\u003E\\u041E\\u043C\\u043D\\u0438\\u043A\\u0430\\u043D\\u0430\\u043B\\u044C\\u043D\\u0430\\u044F CRM \\u0438 \\u043F\\u043B\\u0430\\u0442\\u0444\\u043E\\u0440\\u043C\\u0430 \\u0418\\u0418-\\u043A\\u043E\\u043C\\u043C\\u0443\\u043D\\u0438\\u043A\\u0430\\u0446\\u0438\\u0439\\u003C/span\\u003E\\u003C/p\\u003E\\u003Cp\\u003E\\u003C/p\\u003E\u0022,\u0022blocks\u0022:{\u0022contentData\u0022:[],\u0022settingsData\u0022:[],\u0022expose\u0022:[],\u0022Layout\u0022:{}}}"
+      },
+      "profichatButtonText": {
+        "en-US": " Learn more",
+        "ru": "\u041F\u043E\u0434\u0440\u043E\u0431\u043D\u0435\u0435"
+      },
+      "profichatButtonLink": {
+        "en-US": "[{\u0022name\u0022:\u0022\u0022,\u0022target\u0022:null,\u0022udi\u0022:null,\u0022url\u0022:\u0022#\u0022,\u0022queryString\u0022:null}]"
+      },
+      "zmenuImage": {
+        "en-US": "[{\u0022key\u0022:\u0022625d607b-6a31-495d-97a5-cacf82349abc\u0022,\u0022mediaKey\u0022:\u00229bf6c63f-a962-4c2a-9309-c09520bbd280\u0022,\u0022mediaTypeAlias\u0022:\u0022File\u0022,\u0022crops\u0022:[],\u0022focalPoint\u0022:null}]",
+        "ru": "[{\u0022key\u0022:\u0022edc209ce-246e-4b9c-af21-a9349ca7d45e\u0022,\u0022mediaKey\u0022:\u00229bf6c63f-a962-4c2a-9309-c09520bbd280\u0022,\u0022mediaTypeAlias\u0022:\u0022File\u0022,\u0022crops\u0022:[],\u0022focalPoint\u0022:null}]"
+      },
+      "zmenuTitle": {
+        "en-US": "ZMenu.net",
+        "ru": "ZMenu.net"
+      },
+      "zmenuDescription": {
+        "en-US": "{\u0022markup\u0022:\u0022\\u003Cp\\u003ESolutions for restaurants and retailers\\u003C/p\\u003E\\u003Cdiv class=\\u0022buttons\\u0022 style=\\u0022box-sizing: border-box; display: flex; -webkit-box-pack: start; justify-content: flex-start; -webkit-box-align: center; align-items: center; gap: 20px; color: rgb(3, 19, 54); font-family: Inter, sans-serif; font-size: 22px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\\u0022\\u003E\\u003C/div\\u003E\\u003Cp\\u003E\\u003C/p\\u003E\u0022,\u0022blocks\u0022:{\u0022contentData\u0022:[],\u0022settingsData\u0022:[],\u0022expose\u0022:[],\u0022Layout\u0022:{}}}",
+        "ru": "{\u0022markup\u0022:\u0022\\u003Cp\\u003E\\u003Cspan class=\\u0022s1\\u0022\\u003E\\u0420\\u0435\\u0448\\u0435\\u043D\\u0438\\u044F \\u0434\\u043B\\u044F \\u0440\\u0435\\u0441\\u0442\\u043E\\u0440\\u0430\\u043D\\u043E\\u0432 \\u0438 \\u0440\\u0438\\u0442\\u0435\\u0439\\u043B\\u0430\\u003C/span\\u003E\\u003C/p\\u003E\\u003Cp\\u003E\\u003C/p\\u003E\u0022,\u0022blocks\u0022:{\u0022contentData\u0022:[],\u0022settingsData\u0022:[],\u0022expose\u0022:[],\u0022Layout\u0022:{}}}"
+      },
+      "zmenuButtonText": {
+        "en-US": "Learn more",
+        "ru": "\u041F\u043E\u0434\u0440\u043E\u0431\u043D\u0435\u0435"
+      },
+      "zmenuButtonLink": {
+        "en-US": "[{\u0022name\u0022:\u0022\u0022,\u0022target\u0022:null,\u0022udi\u0022:null,\u0022url\u0022:\u0022#\u0022,\u0022queryString\u0022:null}]"
+      },
+      "mekashronImage": {
+        "en-US": "[{\u0022key\u0022:\u002288bb5ad4-f486-443a-a16b-447db96bd8d8\u0022,\u0022mediaKey\u0022:\u0022bb3bedd2-9a96-4b9a-9048-9d8a5bf1cc82\u0022,\u0022mediaTypeAlias\u0022:\u0022File\u0022,\u0022crops\u0022:[],\u0022focalPoint\u0022:null}]",
+        "ru": "[{\u0022key\u0022:\u0022eeb8d33c-44dc-41be-b981-e43b0381065a\u0022,\u0022mediaKey\u0022:\u0022bb3bedd2-9a96-4b9a-9048-9d8a5bf1cc82\u0022,\u0022mediaTypeAlias\u0022:\u0022File\u0022,\u0022crops\u0022:[],\u0022focalPoint\u0022:null}]"
+      },
+      "mekashronTitle": {
+        "en-US": "Mekashron CRM",
+        "ru": "Mekashron CRM"
+      },
+      "mekashronDescription": {
+        "en-US": "{\u0022markup\u0022:\u0022\\u003Cp\\u003E\\u003Cspan style=\\u0022color: rgb(85, 94, 115); font-family: Inter, sans-serif; font-size: 22px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;\\u0022\\u003EDesktop CRM for Business and Call Centers available for download\\u003C/span\\u003E\\u003C/p\\u003E\u0022,\u0022blocks\u0022:{\u0022contentData\u0022:[],\u0022settingsData\u0022:[],\u0022expose\u0022:[],\u0022Layout\u0022:{}}}",
+        "ru": "{\u0022markup\u0022:\u0022\\u003Cp\\u003E\\u003Cspan class=\\u0022s1\\u0022\\u003E\\u0414\\u0435\\u0441\\u043A\\u0442\\u043E\\u043F\\u043D\\u0430\\u044F CRM \\u0434\\u043B\\u044F \\u0431\\u0438\\u0437\\u043D\\u0435\\u0441\\u0430 \\u0438 \\u043A\\u043E\\u043B\\u043B-\\u0446\\u0435\\u043D\\u0442\\u0440\\u043E\\u0432 \\u0434\\u043E\\u0441\\u0442\\u0443\\u043F\\u043D\\u0430 \\u0434\\u043B\\u044F \\u0441\\u043A\\u0430\\u0447\\u0438\\u0432\\u0430\\u043D\\u0438\\u044F\\u003C/span\\u003E\\u003C/p\\u003E\\u003Cp\\u003E\\u003C/p\\u003E\u0022,\u0022blocks\u0022:{\u0022contentData\u0022:[],\u0022settingsData\u0022:[],\u0022expose\u0022:[],\u0022Layout\u0022:{}}}"
+      },
+      "mekashronPrimaryButtonText": {
+        "en-US": "Download",
+        "ru": "\u0421\u043A\u0430\u0447\u0430\u0442\u044C"
+      },
+      "mekashronPrimaryButtonLink": {
+        "en-US": "[{\u0022name\u0022:\u0022Download BusinessV7\u0022,\u0022target\u0022:null,\u0022udi\u0022:\u0022umb://document/385a82e9c90a42178666993930f48055\u0022,\u0022url\u0022:null,\u0022queryString\u0022:null}]",
+        "ru": "[{\u0022name\u0022:\u0022Download BusinessV7\u0022,\u0022target\u0022:null,\u0022udi\u0022:\u0022umb://document/385a82e9c90a42178666993930f48055\u0022,\u0022url\u0022:null,\u0022queryString\u0022:null}]"
+      },
+      "mekashronSecondaryButtonText": {
+        "en-US": "Learn more",
+        "ru": "\u041F\u043E\u0434\u0440\u043E\u0431\u043D\u0435\u0435"
+      },
+      "mekashronSecondaryButtonLink": {
+        "en-US": "[{\u0022name\u0022:\u0022\u0022,\u0022target\u0022:null,\u0022udi\u0022:null,\u0022url\u0022:\u0022#\u0022,\u0022queryString\u0022:null}]"
+      },
+      "industriesTitle": {
+        "en-US": "Industries We Serve",
+        "ru": "\u041E\u0442\u0440\u0430\u0441\u043B\u0438, \u0441 \u043A\u043E\u0442\u043E\u0440\u044B\u043C\u0438 \u043C\u044B \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u043C"
+      },
+      "industryIcon1": {
+        "en-US": "[{\u0022key\u0022:\u0022199c3ef1-1e13-4a11-b7e8-431c3e83d1a9\u0022,\u0022mediaKey\u0022:\u0022d4d9d8a7-bc44-4811-93d5-699407110b5b\u0022,\u0022mediaTypeAlias\u0022:\u0022umbracoMediaVectorGraphics\u0022,\u0022crops\u0022:[],\u0022focalPoint\u0022:null}]",
+        "ru": "[{\u0022key\u0022:\u00229c8478e2-25e5-44d9-9f3a-d35751f590ec\u0022,\u0022mediaKey\u0022:\u0022d4d9d8a7-bc44-4811-93d5-699407110b5b\u0022,\u0022mediaTypeAlias\u0022:\u0022umbracoMediaVectorGraphics\u0022,\u0022crops\u0022:[],\u0022focalPoint\u0022:null}]"
+      },
+      "industryTitle1": {
+        "en-US": "AI and SaaS",
+        "ru": "\u0418\u0441\u043A\u0443\u0441\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0439 \u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442 \u0438 SaaS"
+      },
+      "industryIcon2": {
+        "en-US": "[{\u0022key\u0022:\u00226b951430-79de-4d3f-9fd6-c4efe3e0bdad\u0022,\u0022mediaKey\u0022:\u002282bf2f98-4821-402f-b91c-fbd6b0bc5d99\u0022,\u0022mediaTypeAlias\u0022:\u0022umbracoMediaVectorGraphics\u0022,\u0022crops\u0022:[],\u0022focalPoint\u0022:null}]",
+        "ru": "[{\u0022key\u0022:\u00229dd0f55a-d959-4edf-ac97-657e7fea2ef9\u0022,\u0022mediaKey\u0022:\u002282bf2f98-4821-402f-b91c-fbd6b0bc5d99\u0022,\u0022mediaTypeAlias\u0022:\u0022umbracoMediaVectorGraphics\u0022,\u0022crops\u0022:[],\u0022focalPoint\u0022:null}]"
+      },
+      "industryTitle2": {
+        "en-US": "Retail and Hospitality",
+        "ru": "\u0420\u0438\u0442\u0435\u0439\u043B \u0438 \u0433\u043E\u0441\u0442\u0438\u043D\u0438\u0447\u043D\u044B\u0439 \u0431\u0438\u0437\u043D\u0435\u0441"
+      },
+      "industryIcon3": {
+        "en-US": "[{\u0022key\u0022:\u002293c9a42e-032a-41bc-9941-aed8711f7af4\u0022,\u0022mediaKey\u0022:\u0022ca5c725a-5059-43f9-9b7b-e5bbf1c059a8\u0022,\u0022mediaTypeAlias\u0022:\u0022umbracoMediaVectorGraphics\u0022,\u0022crops\u0022:[],\u0022focalPoint\u0022:null}]",
+        "ru": "[{\u0022key\u0022:\u0022cb61c0a7-9d72-4002-8c2e-40953bb6cb3d\u0022,\u0022mediaKey\u0022:\u0022ca5c725a-5059-43f9-9b7b-e5bbf1c059a8\u0022,\u0022mediaTypeAlias\u0022:\u0022umbracoMediaVectorGraphics\u0022,\u0022crops\u0022:[],\u0022focalPoint\u0022:null}]"
+      },
+      "industryTitle3": {
+        "en-US": "iGaming",
+        "ru": "iGaming"
+      },
+      "industryIcon4": {
+        "en-US": "[{\u0022key\u0022:\u00229ec88904-47a1-4ec4-8575-1f126b5480de\u0022,\u0022mediaKey\u0022:\u0022f9aa3b75-9c0f-4c6e-8131-c0da2706bbfa\u0022,\u0022mediaTypeAlias\u0022:\u0022umbracoMediaVectorGraphics\u0022,\u0022crops\u0022:[],\u0022focalPoint\u0022:null}]",
+        "ru": "[{\u0022key\u0022:\u00224361d8c1-370c-4f00-acab-0645df9342b7\u0022,\u0022mediaKey\u0022:\u0022f9aa3b75-9c0f-4c6e-8131-c0da2706bbfa\u0022,\u0022mediaTypeAlias\u0022:\u0022umbracoMediaVectorGraphics\u0022,\u0022crops\u0022:[],\u0022focalPoint\u0022:null}]"
+      },
+      "industryTitle4": {
+        "en-US": "Enterprises",
+        "ru": "\u041A\u043E\u0440\u043F\u043E\u0440\u0430\u0442\u0438\u0432\u043D\u044B\u0435 \u043A\u043B\u0438\u0435\u043D\u0442\u044B"
+      },
+      "aboutTitle": {
+        "en-US": "About Mekashron",
+        "ru": "\u041E \u043A\u043E\u043C\u043F\u0430\u043D\u0438\u0438 Makashron"
+      },
+      "aboutText": {
+        "en-US": "With more than 20 years of development experience, Mekashron creates scalable and innovative platforms. Our team are experts in AI, cloud platforms, CRM, POS, and iGaming solutions for clients worldwide.",
+        "ru": "\u041E\u0431\u043B\u0430\u0434\u0430\u044F \u0431\u043E\u043B\u0435\u0435 \u0447\u0435\u043C 20-\u043B\u0435\u0442\u043D\u0438\u043C \u043E\u043F\u044B\u0442\u043E\u043C \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438, Mekashron \u0441\u043E\u0437\u0434\u0430\u0451\u0442 \u043C\u0430\u0441\u0448\u0442\u0430\u0431\u0438\u0440\u0443\u0435\u043C\u044B\u0435 \u0438 \u0438\u043D\u043D\u043E\u0432\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0435 \u043F\u043B\u0430\u0442\u0444\u043E\u0440\u043C\u044B. \u041D\u0430\u0448\u0430 \u043A\u043E\u043C\u0430\u043D\u0434\u0430 \u2014 \u044D\u043A\u0441\u043F\u0435\u0440\u0442\u044B \u0432 \u043E\u0431\u043B\u0430\u0441\u0442\u0438 \u0438\u0441\u043A\u0443\u0441\u0441\u0442\u0432\u0435\u043D\u043D\u043E\u0433\u043E \u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0430, \u043E\u0431\u043B\u0430\u0447\u043D\u044B\u0445 \u043F\u043B\u0430\u0442\u0444\u043E\u0440\u043C, CRM, POS-\u0442\u0435\u0440\u043C\u0438\u043D\u0430\u043B\u043E\u0432 \u0438 \u0440\u0435\u0448\u0435\u043D\u0438\u0439 \u0434\u043B\u044F iGaming \u0434\u043B\u044F \u043A\u043B\u0438\u0435\u043D\u0442\u043E\u0432 \u043F\u043E \u0432\u0441\u0435\u043C\u0443 \u043C\u0438\u0440\u0443."
+      },
+      "aboutButtonText": {
+        "en-US": "About Us",
+        "ru": "\u041E \u043A\u043E\u043C\u043F\u0430\u043D\u0438\u0438"
+      },
+      "aboutButtonLink": {
+        "en-US": "[{\u0022name\u0022:\u0022\u0022,\u0022target\u0022:null,\u0022udi\u0022:null,\u0022url\u0022:\u0022#\u0022,\u0022queryString\u0022:null}]"
+      },
+      "ctaSection": {
+        "en-US": "{\u0022contentData\u0022:[{\u0022contentTypeKey\u0022:\u0022e4028f05-1bb9-4c11-a403-21368684baa8\u0022,\u0022udi\u0022:null,\u0022key\u0022:\u00222e8f60bd-360f-4493-acf7-ba55f79b7620\u0022,\u0022values\u0022:[{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022en-US\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022ctaTitle\u0022,\u0022value\u0022:\u0022Ready to build your next platform?\u0022},{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022en-US\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022ctaText\u0022,\u0022value\u0022:\u0022Tell us about your project and goals. We will respond quickly.\\n\\n\u0022},{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022en-US\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022ctaButtonText\u0022,\u0022value\u0022:\u0022Get in Touch\u0022},{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022en-US\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022ctaButtonLink\u0022,\u0022value\u0022:\u0022[{\\u0022name\\u0022:\\u0022\\u0022,\\u0022target\\u0022:null,\\u0022udi\\u0022:null,\\u0022url\\u0022:\\u0022#\\u0022,\\u0022queryString\\u0022:null}]\u0022},{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022en-US\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022ctaBackground\u0022,\u0022value\u0022:\u0022[{\\u0022key\\u0022:\\u002211a6784a-1bcb-4769-8525-a0aad699106c\\u0022,\\u0022mediaKey\\u0022:\\u0022dbf579b6-77f4-42ef-9866-0949bbe261dc\\u0022,\\u0022mediaTypeAlias\\u0022:\\u0022File\\u0022,\\u0022crops\\u0022:[],\\u0022focalPoint\\u0022:null}]\u0022}]}],\u0022settingsData\u0022:[],\u0022expose\u0022:[{\u0022contentKey\u0022:\u00222e8f60bd-360f-4493-acf7-ba55f79b7620\u0022,\u0022culture\u0022:\u0022en-US\u0022,\u0022segment\u0022:null}],\u0022Layout\u0022:{\u0022Umbraco.BlockList\u0022:[{\u0022contentUdi\u0022:null,\u0022settingsUdi\u0022:null,\u0022contentKey\u0022:\u00222e8f60bd-360f-4493-acf7-ba55f79b7620\u0022,\u0022settingsKey\u0022:null}]}}",
+        "ru": "{\u0022contentData\u0022:[{\u0022contentTypeKey\u0022:\u0022e4028f05-1bb9-4c11-a403-21368684baa8\u0022,\u0022udi\u0022:null,\u0022key\u0022:\u002270b8aa5c-b88a-40b0-87a1-1933b6d79c75\u0022,\u0022values\u0022:[{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022ru\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022ctaButtonText\u0022,\u0022value\u0022:\u0022\\u0421\\u0432\\u044F\\u0437\\u0430\\u0442\\u044C\\u0441\\u044F\u0022},{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022ru\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022ctaText\u0022,\u0022value\u0022:\u0022\\u0420\\u0430\\u0441\\u0441\\u043A\\u0430\\u0436\\u0438\\u0442\\u0435 \\u043D\\u0430\\u043C \\u043E \\u0432\\u0430\\u0448\\u0435\\u043C \\u043F\\u0440\\u043E\\u0435\\u043A\\u0442\\u0435 \\u0438 \\u0446\\u0435\\u043B\\u044F\\u0445. \\u041C\\u044B \\u043E\\u0442\\u0432\\u0435\\u0442\\u0438\\u043C \\u0431\\u044B\\u0441\\u0442\\u0440\\u043E.\u0022},{\u0022editorAlias\u0022:null,\u0022culture\u0022:\u0022ru\u0022,\u0022segment\u0022:null,\u0022alias\u0022:\u0022ctaBackground\u0022,\u0022value\u0022:\u0022[{\\u0022key\\u0022:\\u0022dfff54e7-1952-4c59-ba45-7d33a2da52f5\\u0022,\\u0022mediaKey\\u0022:\\u0022dbf579b6-77f4-42ef-9866-0949bbe261dc\\u0022,\\u0022mediaTypeAlias\\u0022:\\u0022File\\u0022,\\u0022crops\\u0022:[],\\u0022focalPoint\\u0022:null}]\u0022}]}],\u0022settingsData\u0022:[],\u0022expose\u0022:[{\u0022contentKey\u0022:\u002270b8aa5c-b88a-40b0-87a1-1933b6d79c75\u0022,\u0022culture\u0022:\u0022ru\u0022,\u0022segment\u0022:null}],\u0022Layout\u0022:{\u0022Umbraco.BlockList\u0022:[{\u0022contentUdi\u0022:null,\u0022settingsUdi\u0022:null,\u0022contentKey\u0022:\u002270b8aa5c-b88a-40b0-87a1-1933b6d79c75\u0022,\u0022settingsKey\u0022:null}]}}"
+      }
+    },
+    "UpdateDate": "2025-11-25T16:15:00.837+02:00"
+  },
+  "CultureInfos": [
+    {
+      "Culture": "en-US",
+      "Value": "HomePage",
+      "Date": "2025-11-25T16:15:00.837+02:00"
+    },
+    {
+      "Culture": "ru",
+      "Value": "HomePage",
+      "Date": "2025-11-24T14:46:54.383+02:00"
+    }
+  ],
+  "PublishedCultureInfos": [
+    {
+      "Culture": "en-US",
+      "Value": "HomePage",
+      "Date": "2025-11-25T16:15:00.837+02:00"
+    },
+    {
+      "Culture": "ru",
+      "Value": "HomePage",
+      "Date": "2025-11-24T14:46:54.383+02:00"
+    }
+  ],
+  "PublishedCultures": [
+    "en-US",
+    "ru"
+  ],
+  "Writer": "sasha.maksyutenko@gmail.com",
+  "PublicAccessRules": [],
+  "Schedule": [],
+  "Domains": [
+    {
+      "LanguageIsoCode": "en-US",
+      "DomainName": "*2119"
+    },
+    {
+      "LanguageIsoCode": "ru",
+      "DomainName": "/ru"
+    },
+    {
+      "LanguageIsoCode": "uk",
+      "DomainName": "/uk"
+    },
+    {
+      "LanguageIsoCode": "en-US",
+      "DomainName": "/"
+    }
+  ],
+  "SortOrder": 2,
+  "ContentType": "umb://document-type/ffddff3856974110bcc729e8b171aaed",
+  "CreateDate": "2025-11-23T20:30:31.067+02:00",
+  "Creator": "sasha.maksyutenko@gmail.com",
+  "PropertyEditorAliases": {
+    "heroTitle": "Umbraco.TextBox",
+    "heroSubtitle": "Umbraco.TextArea",
+    "heroDesktopBackground": "Umbraco.MediaPicker3",
+    "heroDescription": "Umbraco.TextArea",
+    "heroButton1Text": "Umbraco.TextBox",
+    "heroButton1Link": "Umbraco.MultiUrlPicker",
+    "heroButton2Text": "Umbraco.TextBox",
+    "heroButton2Link": "Umbraco.MultiUrlPicker",
+    "expertiseTitle": "Umbraco.TextBox",
+    "expertiseItems": "Umbraco.BlockList",
+    "productsTitle": "Umbraco.TextBox",
+    "profichatImage": "Umbraco.MediaPicker3",
+    "profichatTitle": "Umbraco.TextBox",
+    "profichatDescription": "Umbraco.RichText",
+    "profichatButtonText": "Umbraco.TextBox",
+    "profichatButtonLink": "Umbraco.MultiUrlPicker",
+    "zmenuImage": "Umbraco.MediaPicker3",
+    "zmenuTitle": "Umbraco.TextBox",
+    "zmenuDescription": "Umbraco.RichText",
+    "zmenuButtonText": "Umbraco.TextBox",
+    "zmenuButtonLink": "Umbraco.MultiUrlPicker",
+    "mekashronImage": "Umbraco.MediaPicker3",
+    "mekashronTitle": "Umbraco.TextBox",
+    "mekashronDescription": "Umbraco.RichText",
+    "mekashronPrimaryButtonText": "Umbraco.TextBox",
+    "mekashronPrimaryButtonLink": "Umbraco.MultiUrlPicker",
+    "mekashronSecondaryButtonText": "Umbraco.TextBox",
+    "mekashronSecondaryButtonLink": "Umbraco.MultiUrlPicker",
+    "industriesTitle": "Umbraco.TextBox",
+    "industryIcon1": "Umbraco.MediaPicker3",
+    "industryTitle1": "Umbraco.TextBox",
+    "industryIcon2": "Umbraco.MediaPicker3",
+    "industryTitle2": "Umbraco.TextBox",
+    "industryIcon3": "Umbraco.MediaPicker3",
+    "industryTitle3": "Umbraco.TextBox",
+    "industryIcon4": "Umbraco.MediaPicker3",
+    "industryTitle4": "Umbraco.TextBox",
+    "aboutTitle": "Umbraco.TextBox",
+    "aboutText": "Umbraco.TextArea",
+    "aboutButtonText": "Umbraco.TextBox",
+    "aboutButtonLink": "Umbraco.MultiUrlPicker",
+    "ctaSection": "Umbraco.BlockList",
+    "expertiseItem.icon": "Umbraco.MediaPicker3",
+    "expertiseItem.title": "Umbraco.TextBox",
+    "expertiseItem.description": "Umbraco.TextArea",
+    "expertiseItem.linkText": "Umbraco.TextBox",
+    "expertiseItem.linkUrl": "Umbraco.MultiUrlPicker",
+    "ctaBlock.ctaTitle": "Umbraco.TextBox",
+    "ctaBlock.ctaText": "Umbraco.TextArea",
+    "ctaBlock.ctaButtonText": "Umbraco.TextBox",
+    "ctaBlock.ctaButtonLink": "Umbraco.MultiUrlPicker",
+    "ctaBlock.ctaBackground": "Umbraco.MediaPicker3"
+  },
+  "Udi": "umb://document/49c1cf81c765472bb07d8c2692634e71",
+  "Dependencies": [
+    {
+      "Udi": "umb://document-type/38eae4a77ac74fdca3e29a1797171c7d",
+      "Checksum": "AD4BA01624E6C5DBBC8099B4ADCA6BB2293E0DAD"
+    },
+    {
+      "Udi": "umb://document-type/e4028f051bb94c11a40321368684baa8",
+      "Checksum": "6337E3B16C35D012CB8C2EBE43F7EE61C8F90EDD"
+    },
+    {
+      "Udi": "umb://document-type/ffddff3856974110bcc729e8b171aaed",
+      "Ordering": true,
+      "Checksum": "50B53CC59FDFD3A5C88D9CABBD1F7D932358AC22"
+    },
+    {
+      "Udi": "umb://document/385a82e9c90a42178666993930f48055",
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://language/en-US",
+      "Ordering": true,
+      "Checksum": "AD30232C89A8107A860F116387B2353925E11505"
+    },
+    {
+      "Udi": "umb://language/ru",
+      "Ordering": true,
+      "Checksum": "87726DBFAA34C9D57A5DA05144C26FA710B47E5F"
+    },
+    {
+      "Udi": "umb://language/uk",
+      "Ordering": true,
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://media/5ec93b115cd44160947e8ca18d7fa84b",
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://media/719d0e55a52c4158a2698f478b0f8809",
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://media/82bf2f984821402fb91cfbd6b0bc5d99",
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://media/9bf6c63fa9624c2a9309c09520bbd280",
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://media/af244751a04843aabe84c55f6d05be4e",
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://media/bb3bedd29a964b9a90489d8a5bf1cc82",
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://media/ca5c725a505943f99b7be5bbf1c059a8",
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://media/cf98bd3ef99d479ab1205eda7ac597d9",
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://media/d4d9d8a7bc44481193d5699407110b5b",
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://media/dbf579b677f442ef98660949bbe261dc",
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://media/dcf64c9db1f7420881c308f611167238",
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://media/f9aa3b759c0f4c6e8131c0da2706bbfa",
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://template/eb22bdb067044fb2a05587de39a2039a",
+      "Ordering": true,
+      "Mode": "Exist"
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.Content.DocumentArtifact",
+  "__version": "16.0.4"
+}

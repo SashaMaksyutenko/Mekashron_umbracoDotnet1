@@ -1,0 +1,8 @@
+{
+  "Name": "umb://media-file/nkjb0yb0/cart.svg",
+  "ChecksumValue": "D004A3A21F83A37F35E46A61A264A8F41CEE4A61",
+  "Udi": "umb://media-file/nkjb0yb0/cart.svg",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.FileArtifact",
+  "__version": "16.0.4"
+}

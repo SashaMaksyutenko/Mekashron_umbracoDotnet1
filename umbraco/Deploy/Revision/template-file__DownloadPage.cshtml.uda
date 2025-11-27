@@ -1,0 +1,8 @@
+{
+  "Name": "umb://template-file/DownloadPage.cshtml",
+  "ChecksumValue": "172E92659C871A1053BBB377C5E4F9FD61427A7F",
+  "Udi": "umb://template-file/DownloadPage.cshtml",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.FileArtifact",
+  "__version": "16.0.4"
+}
